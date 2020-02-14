@@ -1,0 +1,330 @@
+guest-user@cs6111-instance:~$ /home/sa3762/run AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs 001513741995706822325:jzoyxarodil 0.9 "jaguar"
+Parameters:
+Client key  = AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs
+Engine key  = 001513741995706822325:jzoyxarodil
+Query       = jaguar
+Precision   = 0.9
+Google Search Results:
+======================
+Result 1
+[
+ URL: https://www.jaguarusa.com/index.html
+ Title: Jaguar Sedans, SUVs and Sports Cars - Official Site | Jaguar USA
+ Summary: The official home of Jaguar USA. Explore our luxury sedans, SUVs and sports
+cars. Build Your Own, Book a Test Drive or Find a Retailer near you.
+]
+
+Relevant (Y/N)?n
+Result 2
+[
+ URL: https://www.jaguar.com/market-selector.html
+ Title: Market Selector | Jaguar | View the site in your preferred language
+ Summary: Discover the different language sites we have to make browsing our vehicle
+range's easier. We have over 100 different language options available. Learn
+more.
+]
+
+Relevant (Y/N)?n
+Result 3
+[
+ URL: https://en.wikipedia.org/wiki/Jaguar
+ Title: Jaguar - Wikipedia
+ Summary: The jaguar (Panthera onca) is a large felid species and the only extant member
+of the genus Panthera native to the Americas. The jaguar's present range ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: https://www.jaguar.com/index.html
+ Title: Jaguar: Luxury Saloons, Performance SUVs & Sports Cars
+ Summary: The official website of Jaguar. Discover our range of vehicles from the XE, XF, XJ,
+F-Type, F-PACE, E-PACE & our all-electric sports car I-PACE.
+]
+
+Relevant (Y/N)?n
+Result 5
+[
+ URL: https://en.wikipedia.org/wiki/Jaguar_Cars
+ Title: Jaguar Cars - Wikipedia
+ Summary: Jaguar is the luxury vehicle brand of Jaguar Land Rover, a British multinational
+car manufacturer with its headquarters in Whitley, Coventry, England. Jaguar ...
+]
+
+Relevant (Y/N)?n
+Result 6
+[
+ URL: https://www.youtube.com/channel/UCU3MVTYYP82UKA9I_WDpRGw
+ Title: Jaguar - YouTube
+ Summary: Since the first Jaguar car was produced in 1935 we have pushed the boundaries
+of what is possible. We've always believed that a car is the closest thing you ...
+]
+
+Relevant (Y/N)?n
+Result 7
+[
+ URL: https://www.jaguarcommunications.com/
+ Title: Jaguar Communication: Fiber Optic - Internet, TV, phone - Business ...
+ Summary: Nov 26, 2019 ... We provide fiber optic solutions to connect our communities in MN, offering
+residential and business network services at the speed of light.
+]
+
+Relevant (Y/N)?n
+Result 8
+[
+ URL: https://www.jaguarhg.com/
+ Title: Jaguar Hospitality Group: Home
+ Summary: Following the success of Jaguar Ceviche, the group longed to pay tribute to their
+Mexican roots, and debuted Talavera Cocina Mexicana in 2009. An inviting and ...
+]
+
+Relevant (Y/N)?n
+Result 9
+[
+ URL: https://www.nationalgeographic.com/animals/mammals/j/jaguar/
+ Title: Jaguar | National Geographic
+ Summary: Jaguars are the largest of South America's big cats. They once roamed from the
+southern tip of that continent north to the region surrounding the U.S.-Mexico ...
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: https://www.jaguarmining.com/
+ Title: Jaguar Mining Inc.: Home
+ Summary: Jaguar is a producing gold, development, and exploration company operating in
+the Iron Quadrangle, a prolific greenstone belt located in Minas Gerais, Brazil.
+]
+
+Relevant (Y/N)?n
+======================
+FEEDBACK SUMMARY
+Query jaguar
+Precision 0.2
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+Augmenting by  jaguars south
+Parameters:
+Client key  = AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs
+Engine key  = 001513741995706822325:jzoyxarodil
+Query       = jaguar jaguars south
+Precision   = 0.9
+Google Search Results:
+======================
+Result 1
+[
+ URL: https://usajaguars.com/
+ Title: University of South Alabama Athletics - Official Athletics Website
+ Summary: The official athletics website for the University of South Alabama Jaguars. ...
+South Alabama Jaguar Athletics. @WeAreSouth_JAGS. South Alabama Jaguar ...
+]
+
+Relevant (Y/N)?n
+Result 2
+[
+ URL: https://www.nationalgeographic.com/animals/mammals/j/jaguar/
+ Title: Jaguar | National Geographic
+ Summary: Jaguars are the largest of South America's big cats. They once roamed from the
+southern tip of that continent north to the region surrounding the U.S.-Mexico ...
+]
+
+Relevant (Y/N)?y
+Result 3
+[
+ URL: https://en.wikipedia.org/wiki/South_American_jaguar
+ Title: South American jaguar - Wikipedia
+ Summary: The South American jaguar is a jaguar (Panthera onca) population in South
+America. Though a ... Within South America, there are differences for jaguars
+which are north and south of the Amazon River. In Guyana, specimens weighing
+up to 91 ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: https://usajaguars.com/sports/2017/2/9/jaguar-training-center.aspx
+ Title: Jaguar Training Center - University of South Alabama Athletics
+ Summary: Feb 9, 2017 ... JAGUAR TRAINING CENTER • The largest indoor practice facility in the state ...
+While the facility is primarily utilized by the Jaguar football team, ... your ad
+blocker or whitelisting usajaguars.com so we can deliver you the best ...
+]
+
+Relevant (Y/N)?n
+Result 5
+[
+ URL: https://en.wikipedia.org/wiki/Jaguar
+ Title: Jaguar - Wikipedia
+ Summary: The jaguar (Panthera onca) is a large felid species and the only extant member
+of the genus ... South American jaguars in Venezuela or Brazil are much larger
+with average weights of about 95 kg (209 lb) in males and of about 56–78 kg ...
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: https://jaguarathleticfund.com/
+ Title: University of South Alabama Jaguar Athletic Fund - Official Athletics ...
+ Summary: The official athletics website for the University of South Alabama Jaguar.
+]
+
+Relevant (Y/N)?n
+Result 7
+[
+ URL: https://en.wikipedia.org/wiki/North_American_jaguar
+ Title: North American jaguar - Wikipedia
+ Summary: The North American jaguar is a jaguar (Panthera onca) population in North
+America, from the ... Unlike jaguars in South America, jaguars in Central or North
+America are fairly small. Those in the Chamela-Cuixmala Biosphere Reserve on
+the ...
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: https://www.southalabama.edu/athletics/index.html
+ Title: Athletics - University of South Alabama
+ Summary: USA Jaguar athletics teams compete at the NCAA Division I level in eight men's
+and nine women's athletic sports. South Alabama is a charter member of the ...
+]
+
+Relevant (Y/N)?n
+Result 9
+[
+ URL: https://jaguarathleticfund.com/sports/2016/1/7/footballtix.aspx?path=football
+ Title: Football Tickets - University of South Alabama Jaguar Athletic Fund
+ Summary: Jan 7, 2016 ... For more information on Hancock Whitney Stadium and 2020 South Alabama
+Football, please ... www.usajaguars.com/hancockwhitneystadium
+]
+
+Relevant (Y/N)?n
+Result 10
+[
+ URL: https://www.southalabama.edu/colleges/music/marchingband/
+ Title: Jaguar Marching Band - University of South Alabama
+ Summary: Jaguar Marching Band. ... USA Jaguars Canned Food Drive at this Saturday's
+football game against Arkansas State. Look for Greer's Shopping Carts and JMB
+ ...
+]
+
+Relevant (Y/N)?n
+======================
+FEEDBACK SUMMARY
+Query jaguar jaguars south
+Precision 0.4
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+Augmenting by  america onca
+Parameters:
+Client key  = AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs
+Engine key  = 001513741995706822325:jzoyxarodil
+Query       = jaguar jaguars south america onca
+Precision   = 0.9
+Google Search Results:
+======================
+Result 1
+[
+ URL: https://en.wikipedia.org/wiki/Jaguar
+ Title: Jaguar - Wikipedia
+ Summary: The jaguar (Panthera onca) is a large felid species and the only extant member
+of the genus ... South American jaguars in Venezuela or Brazil are much larger
+with average weights of about 95 kg (209 lb) in males and of about 56–78 kg ...
+]
+
+Relevant (Y/N)?y
+Result 2
+[
+ URL: https://www.nationalgeographic.com/animals/mammals/j/jaguar/
+ Title: Jaguar | National Geographic
+ Summary: Scientific Name: Panthera onca. Type: Mammals ... Jaguars are the largest of
+South America's big cats. ... Jaguars are known to swim across the Panama
+Canal.
+]
+
+Relevant (Y/N)?y
+Result 3
+[
+ URL: https://en.wikipedia.org/wiki/South_American_jaguar
+ Title: South American jaguar - Wikipedia
+ Summary: The South American jaguar is a jaguar (Panthera onca) population in South
+America. Though a ... Within South America, there are differences for jaguars
+which are north and south of the Amazon River. In Guyana, specimens weighing
+up to 91 ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: https://www.rainforest-alliance.org/species/jaguar
+ Title: Species Profile: Jaguar (Panther onca) | Rainforest Alliance
+ Summary: Sep 14, 2012 ... Jaguar. Panther onca. Last Updated on September 14, 2012 ... There are
+believed to be 15,000 jaguars alive in the wild today. If jaguars are to ...
+]
+
+Relevant (Y/N)?y
+Result 5
+[
+ URL: https://en.wikipedia.org/wiki/North_American_jaguar
+ Title: North American jaguar - Wikipedia
+ Summary: The North American jaguar is a jaguar (Panthera onca) population in North
+America, from the ... Unlike jaguars in South America, jaguars in Central or North
+America are fairly small. Those in the Chamela-Cuixmala Biosphere Reserve on
+the ...
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: https://www.iucnredlist.org/species/15953/123791436
+ Title: Panthera onca (Jaguar)
+ Summary: Panthera onca (errata version published in 2018). The IUCN Red List of
+Threatened Species 2017: e.T15953A123791436. https://dx.doi.org/10.2305/
+IUCN.
+]
+
+Relevant (Y/N)?y
+Result 7
+[
+ URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0162377
+ Title: Genetic Diversity and Population Structure of Mesoamerican ...
+ Summary: Oct 26, 2016 ... Mesoamerican jaguars (Panthera onca) have been extirpated from over 77% ...
+study of jaguars to primarily use fecal samples collected in the wild across ... We
+genotyped 445 jaguar fecal samples and examined patterns of ...
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/panthera-onca/
+ Title: Panthera onca :: Florida Museum of Natural History
+ Summary: Apr 9, 2015 ... Panthera onca, commonly known as the jaguar, is an extant member of the ...
+Thus, modern jaguars in South America are the only surviving ...
+]
+
+Relevant (Y/N)?y
+Result 9
+[
+ URL: https://www.biologicaldiversity.org/species/mammals/jaguar/natural_history.html
+ Title: Jaguar
+ Summary: JAGUAR (in Spanish, el tigre) } Panthera onca. FAMILY: Felidae. The word
+jaguar comes from the South American Tupi and Guarani languages. ... RANGE:
+Jaguars evolved in North America, expanded into Central and South America,
+and ...
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: https://www.nature.com/articles/d41586-018-02314-5
+ Title: China's lust for jaguar fangs imperils big cats
+ Summary: Feb 23, 2018 ... Wildlife traffickers in South America seek body parts from protected ... The killings
+point to a growing illicit trade in jaguars (Panthera onca) that ...
+]
+
+Relevant (Y/N)?y
+======================
+FEEDBACK SUMMARY
+Query jaguar jaguars south america onca
+Precision 1.0
+Desired precision reached, done

@@ -1,0 +1,212 @@
+guest-user@cs6111-instance:~$ /home/sa3762/run AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs 001513741995706822325:jzoyxarodil 0.9 "per se"
+Parameters:
+Client key  = AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs
+Engine key  = 001513741995706822325:jzoyxarodil
+Query       = per se
+Precision   = 0.9
+Google Search Results:
+======================
+Result 1
+[
+ URL: https://www.thomaskeller.com/perseny
+ Title: Per Se | Thomas Keller Restaurant Group
+ Summary: Per Se entrance. center. Macadamia nut dipped in chocolate. left. Mini meat filled
+pastries. right. Per Se Salon. center. Fish and vegetables. right. Oysters and ...
+]
+
+Relevant (Y/N)?y
+Result 2
+[
+ URL: https://en.wikipedia.org/wiki/Per_se
+ Title: Per se - Wikipedia
+ Summary: Per se may refer to: per se, a Latin phrase meaning "by itself" or "in itself". Illegal
+per se, the legal usage in criminal and antitrust law; Negligence per se, legal ...
+]
+
+Relevant (Y/N)?n
+Result 3
+[
+ URL: https://www.thomaskeller.com/new-york-new-york/per-se/todays-menus
+ Title: Per Se
+ Summary: Daily Menus Two tasting menus are offered daily: a nine-course chef's tasting
+menu, as well as a nine-course vegetable tasting menu. No single ingredient is ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: https://www.nytimes.com/2016/01/13/dining/pete-wells-per-se-review.html
+ Title: At Thomas Keller's Per Se, Slips and Stumbles - The New York Times
+ Summary: Jan 12, 2016 ... Such is Per Se's mystique that I briefly wondered if the failure to bring her a new
+napkin could have been intentional. The restaurant's identity, to ...
+]
+
+Relevant (Y/N)?y
+Result 5
+[
+ URL: https://m.yelp.com/biz/per-se-new-york
+ Title: Per Se - 6158 Photos & 1650 Reviews - French - 10 Columbus Cir ...
+ Summary: 1650 reviews of Per Se "My husband took me to Per Se for my birthday dinner
+and honestly, I was a little worried it wouldn't stand up to all the hype. But man ...
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: https://www.vocabulary.com/dictionary/per%20se
+ Title: per se - Dictionary Definition : Vocabulary.com
+ Summary: Per se is the phrase to use when you want to refer to a particular thing on its own.
+It is not this Latin phrase, per se, that is important, but rather the concept it ...
+]
+
+Relevant (Y/N)?n
+Result 7
+[
+ URL: https://en.wiktionary.org/wiki/per_se
+ Title: per se - Wiktionary
+ Summary: Some people say that a hangover is caused by impurities in the drink, not by the
+alcohol per se. (chiefly in negative polarity environments) In a true or literal ...
+]
+
+Relevant (Y/N)?n
+Result 8
+[
+ URL: https://www.merriam-webster.com/dictionary/perse
+ Title: Perse | Definition of Perse by Merriam-Webster
+ Summary: Perse definition is - of a dark grayish blue resembling indigo. How to use perse in
+a sentence. Did You Know?
+]
+
+Relevant (Y/N)?n
+Result 9
+[
+ URL: https://www.exploretock.com/perse/
+ Title: Per Se - New York, NY | Tock
+ Summary: Opened in 2004, Per Se is Thomas Keller's acclaimed interpretation of The
+French Laundry in the Time Warner Center at Columbus Circle. Designed by
+Adam ...
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: https://www.theshopsatcolumbuscircle.com/restaurants/per-se/
+ Title: Per Se New York | The Shops at Columbus Circle
+ Summary: Enjoy stunning views of Central Park and Columbus Circle during lunch or dinner
+at Per Se, one of New York's most elegant and intimate dining experiences.
+]
+
+Relevant (Y/N)?y
+======================
+FEEDBACK SUMMARY
+Query per se
+Precision 0.6
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+Augmenting by  york keller
+Parameters:
+Client key  = AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs
+Engine key  = 001513741995706822325:jzoyxarodil
+Query       = per se york keller
+Precision   = 0.9
+Google Search Results:
+======================
+Result 1
+[
+ URL: https://www.thomaskeller.com/perseny
+ Title: Per Se | Thomas Keller Restaurant Group
+ Summary: Per Se entrance. center. Macadamia nut dipped in chocolate. left. Mini meat filled
+pastries. right. Per Se Salon. center. Fish and vegetables. right. Oysters and ...
+]
+
+Relevant (Y/N)?y
+Result 2
+[
+ URL: https://www.nytimes.com/2016/01/13/dining/pete-wells-per-se-review.html
+ Title: At Thomas Keller's Per Se, Slips and Stumbles - The New York Times
+ Summary: Jan 12, 2016 ... Enough, also, to make the perception of Per Se as one of the country's ... These
+dishes, all of which Mr. Keller made famous years ago at the ...
+]
+
+Relevant (Y/N)?y
+Result 3
+[
+ URL: https://www.thomaskeller.com/new-york-new-york/per-se/restaurant
+ Title: Restaurant | Thomas Keller Restaurant Group
+ Summary: Opened in 2004, Per Se is Thomas Keller's acclaimed New York interpretation of
+The French Laundry in the Time Warner Center at Columbus Circle. Designed ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: https://ny.eater.com/2019/7/24/20706200/per-se-thomas-keller-corey-chow-nyc-restaurants
+ Title: Manhattan Restaurant Per Se from Thomas Keller May Finally Be a ...
+ Summary: Jul 24, 2019 ... Charting the recent evolution of Thomas Keller's Per Se isn't entirely ... New York
+being the financial capital of the U.S., there is no shortage of ...
+]
+
+Relevant (Y/N)?y
+Result 5
+[
+ URL: https://www.thomaskeller.com/new-york-new-york/per-se/todays-menus
+ Title: Per Se
+ Summary: Daily Menus Two tasting menus are offered daily: a nine-course chef's tasting
+menu, as well as a nine-course vegetable tasting menu. No single ingredient is ...
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: https://en.wikipedia.org/wiki/Per_Se_(restaurant)
+ Title: Per Se (restaurant) - Wikipedia
+ Summary: Per Se is a New American and French restaurant located on the fourth floor of the
+Time Warner ... Thomas Keller opened Per Se in February 2004. ... gives Per Se
+a rating of 4.6/5 for food, putting it in their top 50 restaurants of New York City.
+]
+
+Relevant (Y/N)?y
+Result 7
+[
+ URL: https://www.townandcountrymag.com/leisure/arts-and-culture/a7685/thomas-keller-per-se-new-york-times-review/
+ Title: Thomas Keller Responds to New York Times Review of Per Se ...
+ Summary: Sep 8, 2016 ... But on January 12 the New York Times had knocked Per Se, his seemingly
+untouchable restaurant on Columbus Circle in Manhattan, down ...
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: https://ny.eater.com/2016/1/28/10858508/thomas-keller-per-se-response
+ Title: Keller Responds to Per Se Review: 'We Are Sorry We Let You Down ...
+ Summary: Jan 28, 2016 ... The fact that The New York Times restaurant critic Pete Wells' dining experiences
+at Per Se did not live up to his expectations and to ours is ...
+]
+
+Relevant (Y/N)?y
+Result 9
+[
+ URL: https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/per-se
+ Title: Per Se – New York - a MICHELIN Guide Restaurant
+ Summary: An experience at Thomas Keller's Per Se is one to be savored, treasured,
+recounted and remembered. Once you've been welcomed by the charming team,
+the ...
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: https://www.eater.com/2019/3/26/18281037/kwame-onwuachi-memoir-per-se-thomas-keller-notes-from-a-young-black-chef
+ Title: Kwame Onwuachi's Memoir Reveals Kitchen Abuse at Thomas ...
+ Summary: Mar 26, 2019 ... 'The Kitchen at Per Se Was a Clean Place but Hard and Heartless Too' ... fame,
+Onwuachi worked as an anonymous chef in New York City kitchens. ... City's
+most notorious fine dining kitchens, that of Thomas Keller's Per Se.
+]
+
+Relevant (Y/N)?y
+======================
+FEEDBACK SUMMARY
+Query per se york keller
+Precision 1.0
+Desired precision reached, done

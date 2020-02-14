@@ -1,0 +1,210 @@
+guest-user@cs6111-instance:~$ /home/sa3762/run AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs 001513741995706822325:jzoyxarodil 0.9 "brin"
+Parameters:
+Client key  = AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs
+Engine key  = 001513741995706822325:jzoyxarodil
+Query       = brin
+Precision   = 0.9
+Google Search Results:
+======================
+Result 1
+[
+ URL: https://en.wikipedia.org/wiki/Sergey_Brin
+ Title: Sergey Brin - Wikipedia
+ Summary: Sergey Mikhaylovich Brin is an American computer scientist and Internet
+entrepreneur. Together with Larry Page, he co-founded Google. Brin was the
+president ...
+]
+
+Relevant (Y/N)?y
+Result 2
+[
+ URL: https://www.davidbrin.com/
+ Title: worlds of David Brin
+ Summary: The official website of best-selling science fiction writer and futurist DAVID BRIN.
+]
+
+Relevant (Y/N)?n
+Result 3
+[
+ URL: https://en.wiktionary.org/wiki/brin
+ Title: brin - Wiktionary
+ Summary: The imported definitions may be significantly out of date, and any more recent
+senses may be completely missing. (See the entry for brin in Webster's Revised ...
+]
+
+Relevant (Y/N)?n
+Result 4
+[
+ URL: https://brin.ai/
+ Title: BRiN - The World's First 24/7 Business Advisor, Entrepreneur Coach ...
+ Summary: Introducing BRiN - Your Personal Business Advisor. Download BRiN today & get
+instant access to real-time support and hundreds of business education videos.
+]
+
+Relevant (Y/N)?n
+Result 5
+[
+ URL: https://www.forbes.com/profile/sergey-brin/
+ Title: Sergey Brin
+ Summary: Sergey Brin stepped down as president of Alphabet, parent company of Google,
+in December 2019 but remains a controller shareholder and a board member.
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: https://www.postgresql.org/docs/9.5/brin-intro.html
+ Title: BRIN
+ Summary: Introduction. BRIN stands for Block Range Index. BRIN is designed for handling
+very large tables in which certain columns have some natural correlation with ...
+]
+
+Relevant (Y/N)?n
+Result 7
+[
+ URL: https://www.bloomberg.com/billionaires/profiles/sergey-brin/
+ Title: Bloomberg Billionaires Index - Sergey Brin
+ Summary: Bloomberg Billionaires Index. View profiles for each of the world's 500 richest
+people, see the biggest movers, and compare fortunes or track returns. ❮ # 7
+Larry ...
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: https://www.wsj.com/articles/SB10001424052748704266504575141064259998090
+ Title: Brin Drove Google to Pull Back in China - WSJ
+ Summary: Mar 24, 2010 ... Behind Google's decision to shutter its China-based search engine was co-
+founder Sergey Brin's change of heart about the compromises ...
+]
+
+Relevant (Y/N)?y
+Result 9
+[
+ URL: https://www.theverge.com/2019/12/4/20994361/google-alphabet-larry-page-sergey-brin-sundar-pichai-co-founders-ceo-timeline
+ Title: Google co-founders Larry Page and Sergey Brin: a timeline of their ...
+ Summary: Dec 4, 2019 ... Larry Page and Sergey Brin founded Google in 1996 on the back of an algorithm,
+turned it into one of the most valuable companies in the world ...
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: https://www.biography.com/business-figure/sergey-brin
+ Title: Sergey Brin - Education, Google & Wife - Biography
+ Summary: Dec 4, 2019 ... Sergey Brin is a computer scientist who created Google with Larry Page, the two
+becoming billionaires as Google developed into the world's ...
+]
+
+Relevant (Y/N)?y
+======================
+FEEDBACK SUMMARY
+Query brin
+Precision 0.6
+Still below the desired precision of 0.9
+Indexing results ....
+Indexing results ....
+Augmenting by  sergey google
+Parameters:
+Client key  = AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs
+Engine key  = 001513741995706822325:jzoyxarodil
+Query       = brin sergey google
+Precision   = 0.9
+Google Search Results:
+======================
+Result 1
+[
+ URL: https://en.wikipedia.org/wiki/Sergey_Brin
+ Title: Sergey Brin - Wikipedia
+ Summary: Sergey Mikhaylovich Brin is an American computer scientist and Internet
+entrepreneur. Together with Larry Page, he co-founded Google. Brin was the
+president ...
+]
+
+Relevant (Y/N)?y
+Result 2
+[
+ URL: https://www.theverge.com/2019/12/4/20994361/google-alphabet-larry-page-sergey-brin-sundar-pichai-co-founders-ceo-timeline
+ Title: Google co-founders Larry Page and Sergey Brin: a timeline of their ...
+ Summary: Dec 4, 2019 ... Larry Page and Sergey Brin founded Google in 1996 on the back of an algorithm,
+turned it into one of the most valuable companies in the world ...
+]
+
+Relevant (Y/N)?y
+Result 3
+[
+ URL: https://www.blog.google/inside-google/alphabet/letter-from-larry-and-sergey/
+ Title: A letter from Larry and Sergey - Google Blog
+ Summary: Dec 3, 2019 ... A letter from Larry and Sergey ... Larry Page and Sergey Brin ... Throughout
+Google's evolution as a privately held company, we have managed ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: https://www.businessinsider.com/net-worth-larry-page-sergey-brin-google-2018-10
+ Title: Net worth of Google founders Larry Page and Sergey Brin: cars ...
+ Summary: Feb 4, 2020 ... Google cofounders Larry Page and Sergey Brin each lost nearly $2 billion from
+their net worths after the search engine's parent company ...
+]
+
+Relevant (Y/N)?y
+Result 5
+[
+ URL: https://www.theverge.com/2019/12/3/20994218/google-alphabet-ceo-sundar-pichai-larry-page-sergey-brin-step-down-control-management
+ Title: Google co-founders Larry Page and Sergey Brin relinquish control ...
+ Summary: Dec 3, 2019 ... Google co-founders Larry Page and Sergey Brin, who have mostly stayed out of
+the spotlight since restructuring their company four years ago, ...
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: https://www.forbes.com/profile/sergey-brin/
+ Title: Sergey Brin
+ Summary: Sergey Brin stepped down as president of Alphabet, parent company of Google,
+in December 2019 but remains a controller shareholder and a board member.
+]
+
+Relevant (Y/N)?y
+Result 7
+[
+ URL: https://www.biography.com/business-figure/sergey-brin
+ Title: Sergey Brin - Education, Google & Wife - Biography
+ Summary: Dec 4, 2019 ... Sergey Brin is a computer scientist who created Google with Larry Page, the two
+becoming billionaires as Google developed into the world's ...
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: https://www.npr.org/2019/12/03/784570156/google-founders-brin-page-step-down-pichai-takes-over-as-alphabet-ceo
+ Title: Google Founders Sergey Brin, Larry Page Step Down; Pichai ...
+ Summary: Dec 3, 2019 ... Ending an era at the Internet's biggest search company, Google co-founders
+Sergey Brin and Larry Page end their leadership roles. Sundar ...
+]
+
+Relevant (Y/N)?y
+Result 9
+[
+ URL: https://www.vanityfair.com/style/2014/04/sergey-brin-amanda-rosenberg-affair
+ Title: Sergey Brin and Amanda Rosenberg: Inside the Google Co ...
+ Summary: Mar 12, 2014 ... The story behind Google co-founder Sergey Brin's liaison with Google Glass
+marketing manager Amanda Rosenberg—and his split from his ...
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: https://www.bbc.com/news/technology-50653345
+ Title: Google founders Larry Page and Sergey Brin step back from top ...
+ Summary: Dec 4, 2019 ... Google founders Larry Page and Sergey Brin have announced they are stepping
+down from top roles at the online giant's parent company.
+]
+
+Relevant (Y/N)?y
+======================
+FEEDBACK SUMMARY
+Query brin sergey google
+Precision 1.0
+Desired precision reached, done
