@@ -2,7 +2,7 @@ import pprint
 import sys
 import nltk
 import math
-from collections import defaultdict, OrderedDict
+from collections import defaultdict
 nltk.download('punkt')
 from nltk.corpus import stopwords
 nltk.download('stopwords')
@@ -19,31 +19,31 @@ def algorithmRocchioTfIdf(rel_pages, irrel_pages, query_count, q_tok):
     finalScores = defaultdict(float)
 
     for page in docs:
-        vector  = defaultdict(int)
+        termVector  = defaultdict(int)
         doc     = page['title'] + " " + page['snippet']
         tokens  = tokenizer(doc)
 
         # Counter of query words in current doc
         for token in tokens:
             documentFrequencies[token].add(docs.index(page))
-            vector[token] += 1
+            termVector[token] += 1
         if page in rel_pages:
-            releventVector.append(vector)
+            releventVector.append(termVector)
         else:
-            irreleventVector.append(vector)
+            irreleventVector.append(termVector)
 
     # Update tftd for the current doc
-    for vector in (releventVector + irreleventVector):
-        for term in vector:
-            vector[term] = math.log(1+vector[term], 10) * math.log(float(N)/len(documentFrequencies[term]), 10) * 10000
-            print("--yousef Debug:  ", term, ":" ,vector[term])
+    for termVector in (releventVector + irreleventVector):
+        for term in termVector:
+            termVector[term] = math.log(1+termVector[term], 10) * math.log(float(N)/len(documentFrequencies[term]), 10) * 10000
+            #print("--yousef Debug:  ", term, ":" ,termVector[term])
 
-    for vector in releventVector:
-        for term in vector:
-            finalScores[term] += vector[term] * .6 / len(releventVector)
-    for vector in irreleventVector:
-        for term in vector:
-            finalScores[term] = max(0, finalScores[term] - vector[term] * .1 / len(irreleventVector))
+    for termVector in releventVector:
+        for term in termVector:
+            finalScores[term] += termVector[term] * .8 / len(releventVector)
+    for termVector in irreleventVector:
+        for term in termVector:
+            finalScores[term] = max(0, finalScores[term] - termVector[term] * .1 / len(irreleventVector))
 
 
     # Remove the stop words (Not sure if we do this earlier or now is better?)
@@ -52,6 +52,7 @@ def algorithmRocchioTfIdf(rel_pages, irrel_pages, query_count, q_tok):
         if word in finalScores:
             finalScores.pop(word)
 
+    # Sort based on score and append 2 highest words to query
     finalScores = sorted(finalScores.items(), key=lambda item: str(item[1]), reverse=True)
     q_tok.append(finalScores[0][0])
     q_tok.append(finalScores[1][0])
@@ -112,6 +113,7 @@ def main(api_key, engine_id, percision, query):
             i+=1
             print("")
             print("PAGE #: "+ str(i))
+            print("URL: " + page['htmlFormattedUrl'] )
             print('TITLE: ' + page['title'])
             print('SNIPPET: ' + page['snippet'])
             print('')
