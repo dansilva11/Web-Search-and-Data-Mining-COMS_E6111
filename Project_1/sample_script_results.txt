@@ -1,0 +1,547 @@
+
+C:\Users\Yousef\Desktop\COMS_E6111\Project_1>py run.py AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs 001513741995706822325:jzoyxarodil 0.9 "per se"
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\Yousef\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\Yousef\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+
+PAGE #: 1
+URL: https://www.thomaskeller.com/<b>perse</b>ny
+TITLE: Per Se | Thomas Keller Restaurant Group
+SNIPPET: Per Se entrance. center. Macadamia nut dipped in chocolate. left. Mini meat filled
+pastries. right. Per Se Salon. center. Fish and vegetables. right. Oysters and ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 2
+URL: https://en.wikipedia.org/wiki/<b>Per</b>_<b>se</b>
+TITLE: Per se - Wikipedia
+SNIPPET: Per se may refer to: per se, a Latin phrase meaning "by itself" or "in itself". Illegal
+per se, the legal usage in criminal and antitrust law; Negligence per se, legal ...
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 3
+URL: https://www.thomaskeller.com/new-york-new-york/<b>per</b>-<b>se</b>/todays-menus
+TITLE: Per Se
+SNIPPET: Daily Menus Two tasting menus are offered daily: a nine-course chef's tasting
+menu, as well as a nine-course vegetable tasting menu. No single ingredient is ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 4
+URL: https://www.merriam-webster.com/dictionary/<b>perse</b>
+TITLE: Perse | Definition of Perse by Merriam-Webster
+SNIPPET: Perse definition is - of a dark grayish blue resembling indigo. How to use perse in
+a sentence. Did You Know?
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 5
+URL: https://www.nytimes.com/2016/01/13/dining/pete-wells-<b>per</b>-<b>se</b>-review.html
+TITLE: At Thomas Keller's Per Se, Slips and Stumbles - The New York Times
+SNIPPET: Jan 12, 2016 ... Such is Per Se's mystique that I briefly wondered if the failure to bring her a new
+napkin could have been intentional. The restaurant's identity, to ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 6
+URL: https://www.vocabulary.com/dictionary/<b>per</b>%20se
+TITLE: per se - Dictionary Definition : Vocabulary.com
+SNIPPET: Per se is the phrase to use when you want to refer to a particular thing on its own.
+It is not this Latin phrase, per se, that is important, but rather the concept it ...
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 7
+URL: https://m.yelp.com/biz/<b>per</b>-<b>se</b>-new-york
+TITLE: Per Se - See 6159 Photos & 1649 Reviews - French - 10 Columbus ...
+SNIPPET: 1649 reviews of Per Se "My husband took me to Per Se for my birthday dinner
+and honestly, I was a little worried it wouldn't stand up to all the hype. But man ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 8
+URL: https://www.dictionary.com/browse/<b>per</b>-<b>se</b>
+TITLE: Per se | Definition of Per se at Dictionary.com
+SNIPPET: Per se definition, by, of, for, or in itself; intrinsically: This candidate is not a pacifist
+per se, but he is in favor of peaceful solutions when practicable. See more.
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 9
+URL: https://en.wiktionary.org/wiki/<b>per</b>_<b>se</b>
+TITLE: per se - Wiktionary
+SNIPPET: Some people say that a hangover is caused by impurities in the drink, not by the
+alcohol per se. (chiefly in negative polarity environments) In a true or literal ...
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 10
+URL: https://dictionary.cambridge.org/dictionary/english/<b>per</b>-<b>se</b>
+TITLE: PER SE | meaning in the Cambridge English Dictionary
+SNIPPET: 4 days ago ... There was not an explicit governance pact or peace settlement per se, which
+resulted in recurring crises of governance throughout the 1990s.
+
+Is this page relevant. Enter y/n: n
+
+RELEVANCE SCORE: 0.4
+
+Refining Search...
+
+Augmenting query with two words:tasting and center
+
+PAGE #: 1
+URL: https://www.thomaskeller.com/new-york-new-york/<b>per</b>-<b>se</b>/todays-menus
+TITLE: Per Se
+SNIPPET: Two tasting menus are offered daily: a nine-course chef's tasting menu, as well
+as a nine-course vegetable tasting menu. No single ingredient is ever repeated ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 2
+URL: https://www.exploretock.com/<b>perse</b>/ex<b>per</b>ience/.../main-dining-<b>room</b>-<b>tasting</b>- menu
+TITLE: Per Se - Main Dining Room Tasting Menu - New York, NY | Tock
+SNIPPET: Two nine-course tasting menus in our Main Dining Room are offered daily: Chef's
+Tasting and the Tasting of Vegetables. Please note the price of the Tasting ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 3
+URL: https://www.thomaskeller.com/<b>perse</b>ny
+TITLE: Per Se | Thomas Keller Restaurant Group
+SNIPPET: Per Se entrance. center. Macadamia nut dipped in chocolate. left. Mini meat filled
+pastries. right. Per Se Salon. center. Fish and vegetables. right. Oysters and ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 4
+URL: https://ny.eater.com/2014/12/4/7310871/<b>per</b>-<b>se</b>-review-thomas-keller
+TITLE: Once an Icon, Per Se Is Showing Its Age - Eater NY
+SNIPPET: Dec 4, 2014 ... Per Se, by chef Thomas Keller, was, and still is, one of the country's ... for a 25-
+year-old culinary novice like me who never had a tasting menu before. ... the food
+is now just what you'd expect from a high-end shopping mall.
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 5
+URL: https://snug-harbor.org/event/<b>per</b>-<b>se</b>-dinner-at-snug-harbor/
+TITLE: Per Se Dinner at Snug Harbor - Snug Harbor Cultural Center ...
+SNIPPET: Jul 16, 2019 ... Cocktails served at 6:30 PM in the Tea Room ... wine reception, and a four-
+course tasting menu with wine pairing prepared by Per Se's team, ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 6
+URL: https://ny.eater.com/.../<b>per</b>-<b>se</b>-introduces-65-5-course-dessert-menu-in-salon
+TITLE: Per Se Introduces $65 5-Course Dessert Menu in Salon - Eater NY
+SNIPPET: Apr 23, 2012 ... GQ's Alan Richman recently singled out the Salon at Per Se as one of ... that you
+won't find in the big room: a $65 five-course dessert tasting.
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 7
+URL: https://www.nytimes.com/2016/01/13/dining/pete-wells-<b>per</b>-<b>se</b>-review.html
+TITLE: At Thomas Keller's Per Se, Slips and Stumbles - The New York Times
+SNIPPET: Jan 12, 2016 ... Enough, also, to make the perception of Per Se as one of the country's ... The
+people who work in Per Se's dining room can be warm and gracious. ... are
+limited to a vegetable tasting or a chef's tasting menu with few options.
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 8
+URL: https://www.tripadvisor.com/Restaurant_Review-g60763-d425628-Reviews- <b>Per</b>_<b>Se</b>-New_York_City_New_York.html
+TITLE: Per Se, New York City - Hell's Kitchen - Menu, Prices & Restaurant ...
+SNIPPET: Apr 5, 2015 ... Per Se, New York City: See 1825 unbiased reviews of Per Se, rated ... for 2 on
+Dec 27, 2019 at 9:30pm for Main Dining Room Tasting Menu.
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 9
+URL: https://nymag.com/nymetro/food/reviews/restaurant/9333/
+TITLE: Thomas Keller's Per Se - New York Magazine Restaurant Review ...
+SNIPPET: Jun 16, 2004 ... At Per Se, Thomas Keller makes his triumphant return to New York. ... meals at
+Per Se, Thomas Keller's new restaurant in the Time Warner Center, ... The
+standard chef's tasting menu ($150) is nine courses, and one eventful ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 10
+URL: https://en.wikipedia.org/wiki/<b>Per</b>_<b>Se</b>_(restaurant)
+TITLE: Per Se (restaurant) - Wikipedia
+SNIPPET: Per Se is a New American and French restaurant located on the fourth floor of the
+Time Warner Center at 10 Columbus Circle in Manhattan in New York City, ...
+
+Is this page relevant. Enter y/n: y
+
+RELEVANCE SCORE: 1.0
+
+
+Precision Achieved!
+
+C:\Users\Yousef\Desktop\COMS_E6111\Project_1>py run.py AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs 001513741995706822325:jzoyxarodil 0.9 "brin"
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\Yousef\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\Yousef\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+
+PAGE #: 1
+URL: https://www.david<b>brin</b>.com/
+TITLE: worlds of David Brin
+SNIPPET: The official website of best-selling science fiction writer and futurist DAVID BRIN.
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 2
+URL: https://en.wikipedia.org/wiki/Sergey_<b>Brin</b>
+TITLE: Sergey Brin - Wikipedia
+SNIPPET: Sergey Mikhaylovich Brin is an American computer scientist and Internet
+entrepreneur. Together with Larry Page, he co-founded Google. Brin was the
+president ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 3
+URL: https://en.wiktionary.org/wiki/<b>brin</b>
+TITLE: brin - Wiktionary
+SNIPPET: The imported definitions may be significantly out of date, and any more recent
+senses may be completely missing. (See the entry for brin in Webster's Revised ...
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 4
+URL: https://www.forbes.com/profile/sergey-<b>brin</b>/
+TITLE: Sergey Brin
+SNIPPET: Sergey Brin stepped down as president of Alphabet, parent company of Google,
+in December 2019 but remains a controller shareholder and a board member.
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 5
+URL: https://<b>brin</b>.ai/
+TITLE: BRiN - The World's First 24/7 Business Advisor, Entrepreneur Coach ...
+SNIPPET: Introducing BRiN - Your Personal Business Advisor. Download BRiN today & get
+instant access to real-time support and hundreds of business education videos.
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 6
+URL: https://www.postgresql.org/docs/9.5/<b>brin</b>-intro.html
+TITLE: BRIN
+SNIPPET: Introduction. BRIN stands for Block Range Index. BRIN is designed for handling
+very large tables in which certain columns have some natural correlation with ...
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 7
+URL: https://www.bloomberg.com/billionaires/profiles/sergey-<b>brin</b>/
+TITLE: Bloomberg Billionaires Index - Sergey Brin
+SNIPPET: Bloomberg Billionaires Index. View profiles for each of the world's 500 richest
+people, see the biggest movers, and compare fortunes or track returns. ❮ # 7
+Larry ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 8
+URL: https://www.theverge.com/2017/1/28/14428262/google-sergey-<b>brin</b>
+TITLE: Google co-founder Sergey Brin joins protest against immigration ...
+SNIPPET: Jan 28, 2017 ... Sergey Brin, Google co-founder and president of Alphabet, joined protesters at
+San Francisco International Airport tonight as demonstrators ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 9
+URL: https://www.wsj.com/.../ SB10001424052748704266504575141064259998090
+TITLE: Brin Drove Google to Pull Back in China - WSJ
+SNIPPET: Mar 24, 2010 ... Behind Google's decision to shutter its China-based search engine was co-
+founder Sergey Brin's change of heart about the compromises ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 10
+URL: https://www.biography.com/business-figure/sergey-<b>brin</b>
+TITLE: Sergey Brin - Education, Google & Wife - Biography
+SNIPPET: Dec 4, 2019 ... Sergey Brin is a computer scientist who created Google with Larry Page, the two
+becoming billionaires as Google developed into the world's ...
+
+Is this page relevant. Enter y/n: y
+
+RELEVANCE SCORE: 0.6
+
+Refining Search...
+
+Augmenting query with two words:google and co
+
+PAGE #: 1
+URL: https://en.wikipedia.org/wiki/Sergey_<b>Brin</b>
+TITLE: Sergey Brin - Wikipedia
+SNIPPET: Sergey Mikhaylovich Brin is an American computer scientist and Internet
+entrepreneur. Together with Larry Page, he co-founded Google. Brin was the
+president ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 2
+URL: https://www.theverge.<b>com</b>/.../<b>google</b>-alphabet-ceo-sundar-pichai-larry-page- sergey-<b>brin</b>-step-down-control-management
+TITLE: Google co-founders Larry Page and Sergey Brin relinquish control ...
+SNIPPET: Dec 3, 2019 ... Google co-founders Larry Page and Sergey Brin, who have mostly stayed out of
+the spotlight since restructuring their company four years ago, ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 3
+URL: https://www.ft.<b>com</b>/content/39b250e8-1615-11ea-9ee4-11f260415385
+TITLE: Google co-founders Page and Brin step down from Alphabet ...
+SNIPPET: Dec 3, 2019 ... Larry Page and Sergey Brin, the Stanford students who founded Google as a
+research project 21 years ago, are stepping back from their ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 4
+URL: https://www.theverge.<b>com</b>/.../<b>google</b>-alphabet-larry-page-sergey-<b>brin</b>-sundar- pichai-<b>co</b>-founders-ceo-timeline
+TITLE: Google co-founders Larry Page and Sergey Brin: a timeline of their ...
+SNIPPET: Dec 4, 2019 ... No two tech executives are quite as enigmatic and private as Google co-founders
+Larry Page and Sergey Brin. The two men, who started ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 5
+URL: https://www.businessinsider.<b>com</b>/net-worth-larry-page-sergey-<b>brin</b>-<b>google</b>- 2018-10
+TITLE: Net worth of Google founders Larry Page and Sergey Brin: cars ...
+SNIPPET: Feb 4, 2020 ... Larry Page and Sergey Brin may have only taken salaries of $1 each ... Google
+co-founder Larry Page speaks with people at his lunch table ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 6
+URL: https://www.npr.org/.../<b>google</b>-founders-<b>brin</b>-page-step-down-pichai-takes- over-as-alphabet-ceo
+TITLE: Google Founders Sergey Brin, Larry Page Step Down; Pichai ...
+SNIPPET: Dec 3, 2019 ... Ending an era at the Internet's biggest search company, Google co-founders
+Sergey Brin and Larry Page end their leadership roles. Sundar ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 7
+URL: https://www.wsj.<b>com</b>/.../sundar-pichai-to-replace-larry-page-as-ceo-of- alphabet-11575409229
+TITLE: Google Co-Founders Page, Brin Give Up Management Roles - WSJ
+SNIPPET: Dec 3, 2019 ... Google co-founders Larry Page and Sergey Brin stepped down from active
+management of the internet giant's parent, surrendering immediate ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 8
+URL: https://www.theguardian.<b>com</b>/.../larry-page-<b>google</b>-alphabet-resign-sundar- pichai
+TITLE: Google co-founders Page and Brin step down from parent company ...
+SNIPPET: Dec 3, 2019 ... Current Google CEO will also manage Alphabet under one role in bid to 'simplify
+management structure'
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 9
+URL: https://www.bbc.<b>com</b>/news/technology-50653345
+TITLE: Google founders Larry Page and Sergey Brin step back from top ...
+SNIPPET: Dec 4, 2019 ... Larry Page and Sergey Brin are stepping back from the day-to-day running of ...
+But in a blog post on Tuesday, the co-founders, both aged 46, ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 10
+URL: https://www.cnn.<b>com</b>/2019/12/03/tech/alphabet-<b>google</b>-<b>co</b>.../index.html
+TITLE: Google co-founders Larry Page and Sergey Brin stepping down ...
+SNIPPET: Dec 4, 2019 ... New York (CNN Business) More than 20 years after launching Google out of a
+Menlo Park garage, Larry Page and Sergey Brin are ...
+
+Is this page relevant. Enter y/n: y
+
+RELEVANCE SCORE: 1.0
+
+
+Precision Achieved!
+
+C:\Users\Yousef\Desktop\COMS_E6111\Project_1>py run.py AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs 001513741995706822325:jzoyxarodil 0.9 "jaguar"
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\Yousef\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\Yousef\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+
+PAGE #: 1
+URL: https://www.<b>jaguar</b>usa.com/index.html
+TITLE: Jaguar Sedans, SUVs and Sports Cars - Official Site | Jaguar USA
+SNIPPET: The official home of Jaguar USA. Explore our luxury sedans, SUVs and sports
+cars. Build Your Own, Book a Test Drive or Find a Retailer near you.
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 2
+URL: https://www.<b>jaguar</b>.com/market-selector.html
+TITLE: Market Selector | Jaguar | View the site in your preferred language
+SNIPPET: Discover the different language sites we have to make browsing our vehicle
+range's easier. We have over 100 different language options available. Learn
+more.
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 3
+URL: https://en.wikipedia.org/wiki/<b>Jaguar</b>
+TITLE: Jaguar - Wikipedia
+SNIPPET: The jaguar (Panthera onca) is a large felid species and the only extant member
+of the genus Panthera native to the Americas. The jaguar's present range ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 4
+URL: https://www.<b>jaguar</b>.com/index.html
+TITLE: Jaguar: Luxury Saloons, Performance SUVs & Sports Cars
+SNIPPET: The official website of Jaguar. Discover our range of vehicles from the XE, XF, XJ,
+F-Type, F-PACE, E-PACE & our all-electric sports car I-PACE.
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 5
+URL: https://en.wikipedia.org/wiki/<b>Jaguar</b>_Cars
+TITLE: Jaguar Cars - Wikipedia
+SNIPPET: Jaguar is the luxury vehicle brand of Jaguar Land Rover, a British multinational
+car manufacturer with its headquarters in Whitley, Coventry, England. Jaguar ...
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 6
+URL: https://www.youtube.com/channel/UCU3MVTYYP82UKA9I_WDpRGw
+TITLE: Jaguar - YouTube
+SNIPPET: Since the first Jaguar car was produced in 1935 we have pushed the boundaries
+of what is possible. We've always believed that a car is the closest thing you ...
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 7
+URL: https://www.<b>jaguar</b>communications.com/
+TITLE: Jaguar Communication: Fiber Optic - Internet, TV, phone - Business ...
+SNIPPET: Nov 26, 2019 ... We provide fiber optic solutions to connect our communities in MN, offering
+residential and business network services at the speed of light.
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 8
+URL: https://www.nationalgeographic.com/animals/mammals/j/<b>jaguar</b>/
+TITLE: Jaguar | National Geographic
+SNIPPET: Jaguars are the largest of South America's big cats. They once roamed from the
+southern tip of that continent north to the region surrounding the U.S.-Mexico ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 9
+URL: https://www.instagram.com/<b>jaguar</b>/?hl=en
+TITLE: Jaguar (@jaguar) • Instagram photos and videos
+SNIPPET: 11.3m Followers, 281 Following, 2948 Posts - See Instagram photos and videos
+from Jaguar (@jaguar)
+
+Is this page relevant. Enter y/n: n
+
+PAGE #: 10
+URL: https://www.<b>jaguar</b>mining.com/
+TITLE: Jaguar Mining Inc.: Home
+SNIPPET: Jaguar is a producing gold, development, and exploration company operating in
+the Iron Quadrangle, a prolific greenstone belt located in Minas Gerais, Brazil.
+
+Is this page relevant. Enter y/n: n
+
+RELEVANCE SCORE: 0.2
+
+Refining Search...
+
+Augmenting query with two words:onca and large
+
+PAGE #: 1
+URL: https://en.wikipedia.org/wiki/<b>Jaguar</b>
+TITLE: Jaguar - Wikipedia
+SNIPPET: The jaguar (Panthera onca) is a large felid species and the only extant member
+of the genus Panthera native to the Americas. The jaguar's present range ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 2
+URL: https://www.frontiersin.org/articles/10.3389/fevo.2015.00148/full
+TITLE: Prey Preferences of the Jaguar Panthera onca Reflect the ... - Frontiers
+SNIPPET: Jan 25, 2016 ... Prey Preferences of the Jaguar Panthera onca Reflect the Post-Pleistocene
+Demise of Large Prey. Matt W. Hayward1,2,3*, Jan F. Kamler4,5, ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 3
+URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone...
+TITLE: Estimating large carnivore populations at global scale based on ...
+SNIPPET: Mar 26, 2018 ... The high number of jaguars results from the large total area still ... of density and
+distribution – Application to the jaguar (Panthera onca).
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 4
+URL: https://www.nationalgeographic.com/animals/mammals/j/<b>jaguar</b>/
+TITLE: Jaguar | National Geographic
+SNIPPET: Scientific Name: Panthera onca. Type: Mammals ... Jaguars also eat larger
+animals such as deer, peccaries, capybaras, and tapirs. They sometimes climb
+trees ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 5
+URL: https://www.nature.com/articles/d41586-018-02314-5
+TITLE: China's lust for jaguar fangs imperils big cats
+SNIPPET: Feb 23, 2018 ... The killings point to a growing illicit trade in jaguars (Panthera onca) that ... “If
+there's a demand [in China] for large-cat parts, and that demand ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 6
+URL: https://www.jstor.org/stable/41717194
+TITLE: DO JAGUARS (PANTHERA ONCA) DEPEND ON LARGE PREY?
+SNIPPET: The jaguar (Panthera onca) has been classified as an opportunistic hunter that
+takes as ... difference between the importance of peccaries and other large prey.
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 7
+URL: https://www.ncbi.nlm.nih.gov/pubmed/26245785
+TITLE: Population Genetics of Jaguars (Panthera onca) in the Brazilian ...
+SNIPPET: Population Genetics of Jaguars (Panthera onca) in the Brazilian Pantanal:
+Molecular ... The Pantanal is among the best examples of a region with a large
+jaguar ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 8
+URL: https://www.researchgate.net/.../291790845_Prey_Preferences_of_the_<b>Jaguar</b> _Panthera_<b>onca</b>_Reflect_the_Post-Pleistocene_Demise_of_<b>Large</b>_Prey
+TITLE: (PDF) Prey Preferences of the Jaguar Panthera onca Reflect the ...
+SNIPPET: Jan 25, 2016 ... Prey Preferences of the Jaguar Panthera onca Reflect the Post-Pleistocene
+Demise of Large Prey. Article (PDF Available) · January 2016 with ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 9
+URL: https://link.springer.com/article/10.1007/s13364-016-0300-2
+TITLE: Density and population structure of the jaguar ( Panthera onca ) in a ...
+SNIPPET: Nov 25, 2016 ... As the top predator in the Neotropics, the jaguar (Panthera onca) may have large
+impacts on prey populations, and an important role in trophic ...
+
+Is this page relevant. Enter y/n: y
+
+PAGE #: 10
+URL: https://nhpbs.org/natureworks/<b>jaguar</b>.htm
+TITLE: Jaguar - Panthera onca - NatureWorks
+SNIPPET: The jaguar is the largest cat in North America and the third largest cat in the world
+. It stands about three feet tall from shoulders to feet, 6½ to 7½ feet long from ...
+
+Is this page relevant. Enter y/n: y
+
+RELEVANCE SCORE: 1.0
+
+
+Precision Achieved!
+
+C:\Users\Yousef\Desktop\COMS_E6111\Project_1>

@@ -7,7 +7,7 @@ Yousef Elsendiony (ye2194) and Daniel Carpenter Silva (dcs2180)
 
 - We are first doing the rocchio's algorithm and then doing stopword elimination to avoid appending a stopword to the query which wouldn't increase the precision in the next 10 results.
 
-- Wikipedia link recommneded optimal alpha, beta, gamma values for rocchios as a = 1, b = 0.8, and c = 0.1 respectively.
+- Wikipedia link recommneded optimal alpha, beta, gamma values for rocchios as a = 1, b = 0.8, and c = 0.1 respectively, however we found b=0.6 most effective for our queries.
 
 # Implementation
 - run.py can be called with 4 terms to similar to the example provided by the TA's to execute the google search. All the source code is located in this one file.
