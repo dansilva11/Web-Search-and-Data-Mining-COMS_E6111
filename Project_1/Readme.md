@@ -18,6 +18,12 @@ Yousef Elsendiony (ye2194) and Daniel Carpenter Silva (dcs2180)
 
 # Dependencies
 
+GCP VM Install Commands:
+sudo apt-get update
+sudo apt-get python3-pip
+python3 -m pip install nltk
+python3 -m pip install google-api-python-client
+
 3rd party libraries include:
 - googleapiclient.discovery build() : for google search capabilities
 - nltk.corpus import stopwords : for downloading and removing stopwords
