@@ -35,16 +35,14 @@ def algorithmRocchioTfIdf(rel_pages, irrel_pages, query_count, q_tok):
     # Update tftd for the current doc
     for termVector in (releventVector + irreleventVector):
         for term in termVector:
-            termVector[term] = math.log(1+termVector[term], 10) * math.log(float(N)/len(documentFrequencies[term]), 10) * 10000
-            #print("--yousef Debug:  ", term, ":" ,termVector[term])
+            termVector[term] = math.log(1+termVector[term], 10) * math.log(float(N)/len(documentFrequencies[term]), 10) * 1000
 
     for termVector in releventVector:
         for term in termVector:
-            finalScores[term] += termVector[term] * .8 / len(releventVector)
+            finalScores[term] += termVector[term] * .6 / len(releventVector)
     for termVector in irreleventVector:
         for term in termVector:
             finalScores[term] = max(0, finalScores[term] - termVector[term] * .1 / len(irreleventVector))
-
 
     # Remove the stop words (Not sure if we do this earlier or now is better?)
     stop_words = set(stopwords.words('english'))
@@ -54,9 +52,12 @@ def algorithmRocchioTfIdf(rel_pages, irrel_pages, query_count, q_tok):
 
     # Sort based on score and append 2 highest words to query
     finalScores = sorted(finalScores.items(), key=lambda item: str(item[1]), reverse=True)
-    q_tok.append(finalScores[0][0])
-    q_tok.append(finalScores[1][0])
+    term1 = finalScores[0][0]
+    term2 = finalScores[1][0]
+    q_tok.append(term1)
+    q_tok.append(term2)
 
+    print("Augmenting query with two words: %s and %s\n", term1, term2 )
     return q_tok
 
 
@@ -142,17 +143,10 @@ def main(api_key, engine_id, percision, query):
         print("Refining Search..." )
         print('')
 
-
         #top_words = algorithmTop2Words(rel_pages, query_count, q_tok)
-
         top_words = algorithmRocchioTfIdf(rel_pages, irrel_pages, query_count, q_tok)
 
         query = " ".join(top_words)
-
-
-
-
-    # pprint.pprint(res)
 
 def tokenizer(doc):
     corpus = nltk.sent_tokenize(doc)
@@ -168,14 +162,14 @@ def tokenizer(doc):
 
 
 if __name__ == '__main__':
-    """ api_key = sys.argv[1]
+    api_key = sys.argv[1]
     engine_id = sys.argv[2]
     percision = sys.argv[3]
-    query = sys.argv[4] """
+    query = sys.argv[4]
 
-    api_key = "AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs"
-    engine_id = '001513741995706822325:jzoyxarodil'
-    percision = 0.9
-    query = 'per se'
+    #api_key = "AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs"
+    #engine_id = '001513741995706822325:jzoyxarodil'
+    #percision = 0.9
+    #query = 'jaguar'
 
     main(api_key, engine_id, percision, query)
