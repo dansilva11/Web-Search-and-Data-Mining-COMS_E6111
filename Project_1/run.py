@@ -1,4 +1,3 @@
-import pprint
 import sys
 import nltk
 import math
@@ -8,7 +7,6 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 import re
 from googleapiclient.discovery import build
-
 
 
 def algorithmRocchioTfIdf(rel_pages, irrel_pages, query_count, q_tok):
@@ -57,7 +55,7 @@ def algorithmRocchioTfIdf(rel_pages, irrel_pages, query_count, q_tok):
     q_tok.append(term1)
     q_tok.append(term2)
 
-    print("Augmenting query with two words: %s and %s\n", term1, term2 )
+    print("Augmenting query with two words:" + str(term1) + " and " + str(term2))
     return q_tok
 
 
@@ -88,13 +86,14 @@ def algorithmTop2Words(rel_pages, query_count, q_tok):
                     break
     return top_words
 
-def main(api_key, engine_id, percision, query):
+def main(api_key, engine_id, precision, query):
     # Build a service object for interacting with the API. Visit
     # the Google APIs Console <http://code.google.com/apis/console>
     # to get an API key for your own application.
     cal_perc = 0
+    precision = float(precision)
 
-    while cal_perc<percision:
+    while cal_perc < precision:
         q_tok = tokenizer(query)
         query_count = len(q_tok)
 
@@ -135,7 +134,7 @@ def main(api_key, engine_id, percision, query):
         print("RELEVANCE SCORE: " + str(cal_perc))
         print('')
 
-        if cal_perc>percision:
+        if cal_perc>precision:
             print("")
             print("Precision Achieved!")
             break
@@ -164,12 +163,12 @@ def tokenizer(doc):
 if __name__ == '__main__':
     api_key = sys.argv[1]
     engine_id = sys.argv[2]
-    percision = sys.argv[3]
+    precision = sys.argv[3]
     query = sys.argv[4]
 
     #api_key = "AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs"
     #engine_id = '001513741995706822325:jzoyxarodil'
-    #percision = 0.9
+    #precision = 0.9
     #query = 'jaguar'
 
-    main(api_key, engine_id, percision, query)
+    main(api_key, engine_id, precision, query)
