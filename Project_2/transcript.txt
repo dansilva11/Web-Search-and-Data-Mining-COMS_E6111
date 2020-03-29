@@ -1,0 +1,51 @@
+        ==========
+        === Extracted Relation ===
+        Sentence:  He has been writing about technology for more than 30 years, writing... Read more Editor at Large Featured Video Bill Gates Talks About 6 Moments in His Life Bill Gates, one of 
+WIRED's 25 icons from its WIRED25 anniversary celebration, reflects on six important moments from his life and career, from teaching students to program in high school, to his relationships with M
+elinda Gates, Warren Buffett, and Paul Allen, the co-founder of Microsoft, who passed away on October 15.
+        Confidence: 0.43033999658550093; Subject: Warren Buffett; Object: Microsoft
+        Confidence is lower than threshold confidence. Ignoring this.
+        ==========
+Relations extracted from this website 2 (Overall: 34)
+URL (10 / 10): https://www.cnn.com/2020/03/13/.../bill-gates-microsoft.../index.html
+Fetching text from url ...
+Webpage length (num characters): 2414
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 1
+00000 -quiet True -serverProperties corenlp_server-90f0dde827bb4630.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+Relations extracted from this website 0 (Overall: 34)
+================== ALL RELATIONS (34) =================
+        Confidence: 1.0 | Subject: Bill Gates   | Object: Microsoft
+        Confidence: 1.0 | Subject: Satya Nadella        | Object: Microsoft
+        Confidence: 1.0 | Subject: Gates        | Object: Microsoft
+        Confidence: 1.0 | Subject: Paul Allen   | Object: Microsoft
+        Confidence: 1.0 | Subject: He   | Object: Microsoft
+        Confidence: 1.0 | Subject: Gates        | Object: Harvard
+        Confidence: 1.0 | Subject: Christos Papadimitriou       | Object: Harvard
+        Confidence: 1.0 | Subject: Jack Sams    | Object: IBM
+        Confidence: 1.0 | Subject: Tim Paterson | Object: Seattle Computer Products
+        Confidence: 1.0 | Subject: Bill Gates   | Object: Reuters Microsoft
+        Confidence: 1.0 | Subject: Warren Buffett       | Object: Berkshire Hathaway
+        Confidence: 1.0 | Subject: Jeff Bezos   | Object: Amazon
+        Confidence: 0.9799911902690535  | Subject: Bill Gates Gates     | Object: Bill & Melinda Gates Foundation
+        Confidence: 0.9785020123001692  | Subject: Bill Gates Gates     | Object: Microsoft
+        Confidence: 0.9673864991548168  | Subject: William Henry Gates III      | Object: Bill & Melinda Gates Foundation
+        Confidence: 0.9631251003520094  | Subject: William Henry Gates III      | Object: Microsoft
+        Confidence: 0.9587466735070875  | Subject: William Henry Gates III      | Object: Cascade Investment Technology
+        Confidence: 0.9539909410995429  | Subject: Melinda French       | Object: Microsoft
+        Confidence: 0.9537093945063441  | Subject: Mary Maxwell Gates   | Object: Microsoft
+        Confidence: 0.9393039890496282  | Subject: Mary Maxwell Gates   | Object: Cascade Investment Technology
+        Confidence: 0.933850373400645   | Subject: Melinda French       | Object: Cascade Investment Technology
+        Confidence: 0.9300529656457135  | Subject: Mary Maxwell Gates   | Object: Bill & Melinda Gates Foundation
+        Confidence: 0.9192702243950713  | Subject: Gates        | Object: Bill & Melinda Gates Foundation
+        Confidence: 0.8925304003307755  | Subject: William Henry Gates III      | Object: Branded Entertainment Network
+        Confidence: 0.8912706470667288  | Subject: David Boies  | Object: Justice Department
+        Confidence: 0.8700164649703435  | Subject: Mary Maxwell Gates   | Object: Branded Entertainment Network
+        Confidence: 0.8644557738185423  | Subject: Melinda French       | Object: Bill & Melinda Gates Foundation
+        Confidence: 0.8624891238256895  | Subject: Bill Gates Gates     | Object: Branded Entertainment Network
+        Confidence: 0.8305853137419958  | Subject: Gates        | Object: Berkshire
+        Confidence: 0.8199447124115846  | Subject: Melinda French       | Object: Branded Entertainment Network
+        Confidence: 0.772364410541728   | Subject: Bill Gates Gates     | Object: Cascade Investment Technology
+        Confidence: 0.7639629571437762  | Subject: Gates        | Object: Intel
+        Confidence: 0.7306145876740974  | Subject: Steve Jobs   | Object: Justice Department
+        Confidence: 0.7175707843712362  | Subject: Post-Microsoft Gates | Object: Microsoft
