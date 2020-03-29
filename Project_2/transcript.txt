@@ -1,51 +1,448 @@
-        ==========
-        === Extracted Relation ===
-        Sentence:  He has been writing about technology for more than 30 years, writing... Read more Editor at Large Featured Video Bill Gates Talks About 6 Moments in His Life Bill Gates, one of 
-WIRED's 25 icons from its WIRED25 anniversary celebration, reflects on six important moments from his life and career, from teaching students to program in high school, to his relationships with M
-elinda Gates, Warren Buffett, and Paul Allen, the co-founder of Microsoft, who passed away on October 15.
-        Confidence: 0.43033999658550093; Subject: Warren Buffett; Object: Microsoft
-        Confidence is lower than threshold confidence. Ignoring this.
-        ==========
+
+python3 run.py AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs 001513741995706822325:jzoyxarodil 2 0.7 "bill gates microsoft" 10
+
+Parameters:
+Client key   =  AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs
+Engine key   =  001513741995706822325:jzoyxarodil
+Relation     =  per:employee_or_member_of
+Threshold    =  0.7
+Query        =  bill gates microsoft
+# of Tuples  =  10
+Loading necessary libraries; This should take a minute or so ...
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+URL (1 / 10): https://www.cnbc.com/2020/03/13/bill-gates-leaves-microsoft-board.html
+Fetching text from url ...
+Webpage length (num characters): 5745
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-5a4cafc7f5be4e4c.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+	=== Extracted Relation ===
+	Sentence:  Skip Navigation Ã— LOG IN SIGN UP Keep Me Logged In SIGN IN Pro Watchlist Make It Select USA INTL Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Watchlist Business Economy Finance Health & Science Media Real Estate Energy Transportation Industrials Retail Wealth Small Business Investing Invest In You Personal Finance Financial Advisors Trading Nation Options Action ETF Street Buffett Archive Earnings Trader Talk Tech Cybersecurity Enterprise Internet Media Mobile Social Media Venture Capital Tech Guide Politics White House Policy Defense Congress 2020 Elections CNBC TV Live TV Live Audio Latest Video Top Video CEO Interviews Business Day Shows Primetime Shows CNBC World Digital Originals Full Episodes Menu SEARCH QUOTES Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Watchlist Business Economy Finance Health & Science Media Real Estate Energy Transportation Industrials Retail Wealth Small Business Investing Invest In You Personal Finance Financial Advisors Trading Nation Options Action ETF Street Buffett Archive Earnings Trader Talk Tech Cybersecurity Enterprise Internet Media Mobile Social Media Venture Capital Tech Guide Politics White House Policy Defense Congress 2020 Elections CNBC TV Live TV Live Audio Latest Video Top Video CEO Interviews Business Day Shows Primetime Shows CNBC World Digital Originals Full Episodes Menu Tech Bill Gates leaves Microsoft board Published Fri, Mar 13 2020 5:09 PM EDT Updated Fri, Mar 13 2020 7:14 PM EDT Todd Haselton @robotodd Jordan Novet @jordannovet Key Points Bill Gates is leaving Microsoft's board, the company announced on Friday.
+	Confidence: 1.0; Subject: Bill Gates; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Gates co-founded Microsoft in 1975 with Paul Allen, who died in 2018.
+	Confidence: 0.5747094446370702; Subject: Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  VIDEO 4:05 04:05 Bill Gates steps down from Microsoft board Fast Money Microsoft  announced on Friday that Bill Gates is leaving the board, effective Friday.
+	Confidence: 0.5416216763419542; Subject: Bill Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Gates co-founded Microsoft in 1975 with Paul Allen, who died in 2018.
+	Confidence: 0.5747094446370702; Subject: Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Microsoft's current CEO, Satya Nadella, took over in 2014.
+	Confidence: 1.0; Subject: Satya Nadella; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Gates was director of the board at Microsoft until 2014 but began dedicating more of his time to the Bill & Melinda Gates Foundation in 2008.
+	Confidence: 0.9192702243950713; Subject: Gates; Object: Bill & Melinda Gates Foundation
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Gates was director of the board at Microsoft until 2014 but began dedicating more of his time to the Bill & Melinda Gates Foundation in 2008.
+	Confidence: 1.0; Subject: Gates; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  ``It's been a tremendous honor and privilege to have worked with and learned from Bill over the years,'' said Microsoft CEOÂ Satya Nadella.
+	Confidence: 1.0; Subject: Satya Nadella; Object: Microsoft
+The same relation is already present with higher (or equal) confidence. Ignoring this.
+	==========
+Relations extracted from this website 4 (Overall: 4)
+URL (2 / 10): https://www.theverge.com/.../bill-gates-steps-down-microsoft-board- philanthropy
+Fetching text from url ...
+Webpage length (num characters): 508
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-8603d515aec249d6.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+Relations extracted from this website 0 (Overall: 4)
+URL (3 / 10): https://www.nytimes.com/2020/03/13/.../bill-gates-microsoft-board.html
+Fetching text from url ...
+Webpage length (num characters): 117
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-b769d816da564501.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+Relations extracted from this website 0 (Overall: 4)
+URL (4 / 10): https://techcrunch.com/2020/03/13/bill-gates-leaves-microsofts-board/
+Fetching text from url ...
+Webpage length (num characters): 2602
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-6a12150029fd4e92.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+	=== Extracted Relation ===
+	Sentence:  Bill Gates leaves Microsoft's board     Devin Coldewey   @techcrunch  / 2 weeks         Bill Gates has stepped down from the board of Microsoft to spend more time on his philanthropic endeavors, the company announced Friday afternoon .
+	Confidence: 0.515374175942634; Subject: Devin Coldewey; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Bill Gates leaves Microsoft's board     Devin Coldewey   @techcrunch  / 2 weeks         Bill Gates has stepped down from the board of Microsoft to spend more time on his philanthropic endeavors, the company announced Friday afternoon .
+	Confidence: 0.5724080492294059; Subject: Bill Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Gates led Microsoft from the '80s all the way through 2008, when he left to dedicate himself more fully to the Bill & Melinda Gates Foundation , through which he has channeled a great deal of his immense wealth toward global health concerns.
+	Confidence: 0.8327627548715187; Subject: Gates; Object: Microsoft
+The same relation is already present with higher (or equal) confidence. Ignoring this.
+	==========
+Timeout Stanford NLP Server --- Continuing
+URL (5 / 10): https://news.microsoft.com/.../microsoft-announces-change-to-its-board-of- directors/
+Fetching text from url ...
+Webpage length (num characters): 25
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-c490b65347cd4ef3.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+Relations extracted from this website 0 (Overall: 4)
+URL (6 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+Fetching text from url ...
+Truncating webpage text from size (num characters) %s to 20000 ... 100837
+Webpage length (num characters): 20000
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-b42ce215dc694313.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9587466735070875; Subject: William Henry Gates III; Object: Cascade Investment Technology
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9393039890496282; Subject: Mary Maxwell Gates; Object: Cascade Investment Technology
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.8644557738185423; Subject: Melinda French; Object: Bill & Melinda Gates Foundation
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.8925304003307755; Subject: William Henry Gates III; Object: Branded Entertainment Network
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9537093945063441; Subject: Mary Maxwell Gates; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9631251003520094; Subject: William Henry Gates III; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.772364410541728; Subject: Bill Gates Gates; Object: Cascade Investment Technology
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.8199447124115846; Subject: Melinda French; Object: Branded Entertainment Network
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.8624891238256895; Subject: Bill Gates Gates; Object: Branded Entertainment Network
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9673864991548168; Subject: William Henry Gates III; Object: Bill & Melinda Gates Foundation
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9300529656457135; Subject: Mary Maxwell Gates; Object: Bill & Melinda Gates Foundation
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.933850373400645; Subject: Melinda French; Object: Cascade Investment Technology
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9785020123001692; Subject: Bill Gates Gates; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9799911902690535; Subject: Bill Gates Gates; Object: Bill & Melinda Gates Foundation
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.9539909410995429; Subject: Melinda French; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  American business magnate and philanthropist    Bill Gates Gates in 2018 Born William Henry Gates III -LRB- 1955-10-28 -RRB- October 28, 1955 -LRB-ageÂ 64-RRB- Seattle , Washington , U.S. Occupation Software developer investor entrepreneur philanthropist YearsÂ active 1975--present KnownÂ for Co-founder of Microsoft NetÂ worth US$97.8 billion -LRB-March 2020-RRB- -LSB-1-RSB- Title  Co- chairman and co-founder of the Bill & Melinda Gates Foundation  Chairman and founder of Branded Entertainment Network  Chairman and co-founder of TerraPower  Chairman and founder of Cascade Investment  Technology advisor at Microsoft  Spouse-LRB-s-RRB- Melinda French -LRB- m.  1994 -RRB- Children 3 Parents Bill Gates Sr. -LRB-father-RRB- Mary Maxwell Gates -LRB-mother-RRB- Website gatesnotes.com Signature  William Henry Gates III -LRB-born October 28, 1955-RRB- is an American business magnate , software developer, investor, and philanthropist.
+	Confidence: 0.8700164649703435; Subject: Mary Maxwell Gates; Object: Branded Entertainment Network
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-2-RSB- -LSB-3-RSB- During his career at Microsoft, Gates held the positions of chairman , chief executive officer -LRB-CEO-RRB-, president and chief software architect , while also being the largest individual shareholder until May 2014.
+	Confidence: 0.4007684628602298; Subject: Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Born and raised in Seattle, Washington , Gates co-founded Microsoft with childhood friend Paul Allen in 1975 in Albuquerque, New Mexico ; it went on to become the world's largest personal computer software company.
+	Confidence: 0.7123580527943317; Subject: Paul Allen; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Born and raised in Seattle, Washington , Gates co-founded Microsoft with childhood friend Paul Allen in 1975 in Albuquerque, New Mexico ; it went on to become the world's largest personal computer software company.
+	Confidence: 0.8346682366303112; Subject: Gates; Object: Microsoft
+The same relation is already present with higher (or equal) confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-8-RSB- In June 2006, Gates announced that he would be transitioning to a part-time role at Microsoft and full-time work at the Bill & Melinda Gates Foundation , the private charitable foundation that he and his wife, Melinda Gates , established in 2000.
+	Confidence: 0.4309283664641905; Subject: Melinda Gates; Object: Bill & Melinda Gates Foundation
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-10-RSB- He stepped down as chairman of Microsoft in February 2014 and assumed a new post as technology adviser to support the newly appointed CEO Satya Nadella .
+	Confidence: 0.5670681080573123; Subject: Satya Nadella; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-10-RSB- He stepped down as chairman of Microsoft in February 2014 and assumed a new post as technology adviser to support the newly appointed CEO Satya Nadella .
+	Confidence: 1.0; Subject: He; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Later in his career and since leaving day-to-day operations at Microsoft in 2008, Gates pursued a number of philanthropic endeavors.
+	Confidence: 0.5032818391943871; Subject: Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  One of these systems was a PDP-10 belonging to Computer Center Corporation -LRB-CCC-RRB- which banned for the summer Gates, Paul Allen , Ric Weiland , and Gates' best friend and first business collaborator Kent Evans after it caught them exploiting bugs in the operating system to obtain free computer time.
+	Confidence: 0.5617659822504395; Subject: Paul Allen; Object: Computer Center Corporation
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  One of these systems was a PDP-10 belonging to Computer Center Corporation -LRB-CCC-RRB- which banned for the summer Gates, Paul Allen , Ric Weiland , and Gates' best friend and first business collaborator Kent Evans after it caught them exploiting bugs in the operating system to obtain free computer time.
+	Confidence: 0.5948505103408864; Subject: Ric Weiland; Object: Computer Center Corporation
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Gates left Harvard after two years while Ballmer stayed and graduated magna cum laude .
+	Confidence: 1.0; Subject: Gates; Object: Harvard
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Ballmer succeeded Gates as Microsoft's CEO years later and maintained that position from 2000 until his resignation in 2014.
+	Confidence: 0.6911532514802464; Subject: Ballmer; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Ballmer succeeded Gates as Microsoft's CEO years later and maintained that position from 2000 until his resignation in 2014.
+	Confidence: 0.6297263828471137; Subject: Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-43-RSB- His solution was formalized in a published paper in collaboration with Harvard computer scientist Christos Papadimitriou .
+	Confidence: 1.0; Subject: Christos Papadimitriou; Object: Harvard
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-47-RSB- The MITS Altair 8800 was released the following year based on the Intel 8080 CPU , and Gates and Allen saw this as the opportunity to start their own computer software company.
+	Confidence: 0.6400002269572793; Subject: Allen; Object: Intel
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-47-RSB- The MITS Altair 8800 was released the following year based on the Intel 8080 CPU , and Gates and Allen saw this as the opportunity to start their own computer software company.
+	Confidence: 0.7639629571437762; Subject: Gates; Object: Intel
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  IBM representative Jack Sams mentioned the licensing difficulties during a subsequent meeting with Gates and asked if Microsoft could provide an operating system.
+	Confidence: 1.0; Subject: Jack Sams; Object: IBM
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  A few weeks later, Gates and Allen proposed using 86-DOS , an operating system similar to CP/M, that Tim Paterson of Seattle Computer Products -LRB-SCP-RRB- had made for hardware similar to the PC.
+	Confidence: 1.0; Subject: Tim Paterson; Object: Seattle Computer Products
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Microsoft employed Paterson to adapt the operating system for the PC -LSB-57-RSB- and delivered it to IBM as PC DOS for a one-time fee of $50,000.
+	Confidence: 0.523250801718687; Subject: Paterson; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-54-RSB-  Gates oversaw Microsoft's company restructuring on June 25, 1981, which re-incorporated the company in Washington state and made Gates the president and chairman of the board, with Paul Allen as vice president and vice chairman.
+	Confidence: 0.5932963553153888; Subject: Paul Allen; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-54-RSB-  Gates oversaw Microsoft's company restructuring on June 25, 1981, which re-incorporated the company in Washington state and made Gates the president and chairman of the board, with Paul Allen as vice president and vice chairman.
+	Confidence: 0.8199716636264586; Subject: Gates; Object: Microsoft
+The same relation is already present with higher (or equal) confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-69-RSB- -LSB-70-RSB- -LSB-71-RSB-  During Microsoft's early years, Gates was an active software developer, particularly in the company's programming language products, but his primary role in most of the company's history was as a manager and executive.
+	Confidence: 0.7644454542297477; Subject: Gates; Object: Microsoft
+The same relation is already present with higher (or equal) confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-70-RSB-  Jerry Pournelle wrote in 1985 when Gates announced Microsoft Excel : ``Bill Gates likes the program, not because it's going to make him a lot of money -LRB-although I'm sure it will do that-RRB-, but because it's a neat hack .''
+	Confidence: 0.6152828599245556; Subject: Bill Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-77-RSB-   Post-Microsoft   Gates meets with U.S. Secretary of Defense James Mattis , February 2017  Since leaving day-to-day operations at Microsoft, Gates has continued his philanthropy and works on other projects.
+	Confidence: 0.5357042072093867; Subject: James Mattis; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  -LSB-77-RSB-   Post-Microsoft   Gates meets with U.S. Secretary of Defense James Mattis , February 2017  Since leaving day-to-day operations at Microsoft, Gates has continued his philanthropy and works on other projects.
+	Confidence: 0.7175707843712362; Subject: Post-Microsoft Gates; Object: Microsoft
+	Adding to set of extracted relations
+	==========
+Relations extracted from this website 24 (Overall: 28)
+URL (7 / 10): https://www.bbc.com/news/business-51883377
+Fetching text from url ...
+Webpage length (num characters): 6506
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-7406f81dd62e4b95.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+	=== Extracted Relation ===
+	Sentence:  These are external links and will open in a new window   Close share panel                 Image copyright  Reuters   Microsoft co-founder Bill Gates is stepping down from the company's board to spend more time on philanthropic activities.
+	Confidence: 1.0; Subject: Bill Gates; Object: Reuters Microsoft
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  One of the world's richest men, Mr Gates, 64, has also left the board of Warren Buffett's massive holding company, Berkshire Hathaway.
+	Confidence: 1.0; Subject: Warren Buffett; Object: Berkshire Hathaway
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Mr Gates stepped down from his day-to-day role running Microsoft in 2008.
+	Confidence: 0.6159468543576694; Subject: Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Mr Gates is listed by Forbes as the world's second richest man after Amazon founder Jeff Bezos, and is worth $103.6bn -LRB-Â£84.4bn-RRB-.
+	Confidence: 1.0; Subject: Jeff Bezos; Object: Amazon
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+	Confidence: 0.6190643111169629; Subject: his; Object: Berkshire
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+	Confidence: 0.697710463822445; Subject: his; Object: Bill & Melinda Gates Foundation
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+	Confidence: 0.5705124136147393; Subject: Gates; Object: Bill & Melinda Gates Foundation
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Mr Gates has served on Berkshire's board since 2004 but devotes much of his time to the charitable organisation he set up with his wife, the Bill & Melinda Gates Foundation.
+	Confidence: 0.8305853137419958; Subject: Gates; Object: Berkshire
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Related Topics Bill Gates Microsoft    Share this story AboutÂ sharing      Email      Facebook      Messenger      Messenger      Twitter      Pinterest      WhatsApp      LinkedIn                                 Top Stories   All parts of UK `on emergency footing' - minister  UK Communities Secretary Robert Jenrick says all parts of the country are now on an ``emergency footing''.
+	Confidence: 0.6507799368667201; Subject: Robert Jenrick; Object: Email Facebook Messenger Messenger Twitter Pinterest
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+Relations extracted from this website 4 (Overall: 32)
+URL (8 / 10): https://www.computerworld.com/.../bill-gates-always-seems-to-know-when-it -s-time-to-go.html
+Fetching text from url ...
+Webpage length (num characters): 6900
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-7c1080b325754a60.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+Relations extracted from this website 0 (Overall: 32)
+URL (9 / 10): https://www.wired.com/story/bill-gates-steps-down-microsoft-board/
+Fetching text from url ...
+Webpage length (num characters): 7432
+Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-daf734cb16374fe3.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+	=== Extracted Relation ===
+	Sentence:  Eight years later, Gates left his full-time post at Microsoft to spend most of his time with the foundation.
+	Confidence: 0.656185401238439; Subject: Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you seldom saw when he was speaking for Microsoft.
+	Confidence: 0.7306145876740974; Subject: Steve Jobs; Object: Justice Department
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you seldom saw when he was speaking for Microsoft.
+	Confidence: 0.8912706470667288; Subject: David Boies; Object: Justice Department
+	Adding to set of extracted relations
+	==========
+	=== Extracted Relation ===
+	Sentence:  Though taking on polio, poverty, and the rising of the seas might seem more stressful than fighting Steve Jobs, Sony, or the Justice Department's hired legal gunslinger, David Boies, Gates has approached the challenges with a humor and humility you seldom saw when he was speaking for Microsoft.
+	Confidence: 0.5879735511329249; Subject: Steve Jobs; Object: Sony
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  When Gates left his software architect job at Microsoft in 2008, he told me that the subjects he tackled at the foundation were more vital than the ones he made about software.
+	Confidence: 0.6966473945763765; Subject: Gates; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  He has been writing about technology for more than 30 years, writing... Read more Editor at Large Featured Video Bill Gates Talks About 6 Moments in His Life Bill Gates, one of WIRED's 25 icons from its WIRED25 anniversary celebration, reflects on six important moments from his life and career, from teaching students to program in high school, to his relationships with Melinda Gates, Warren Buffett, and Paul Allen, the co-founder of Microsoft, who passed away on October 15.
+	Confidence: 0.4834226538842829; Subject: His; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
+	=== Extracted Relation ===
+	Sentence:  He has been writing about technology for more than 30 years, writing... Read more Editor at Large Featured Video Bill Gates Talks About 6 Moments in His Life Bill Gates, one of WIRED's 25 icons from its WIRED25 anniversary celebration, reflects on six important moments from his life and career, from teaching students to program in high school, to his relationships with Melinda Gates, Warren Buffett, and Paul Allen, the co-founder of Microsoft, who passed away on October 15.
+	Confidence: 1.0; Subject: Paul Allen; Object: Microsoft
+The same relation is already present but with a lower confidence. Just updating the confident value.
+	==========
+	=== Extracted Relation ===
+	Sentence:  He has been writing about technology for more than 30 years, writing... Read more Editor at Large Featured Video Bill Gates Talks About 6 Moments in His Life Bill Gates, one of WIRED's 25 icons from its WIRED25 anniversary celebration, reflects on six important moments from his life and career, from teaching students to program in high school, to his relationships with Melinda Gates, Warren Buffett, and Paul Allen, the co-founder of Microsoft, who passed away on October 15.
+	Confidence: 0.43033999658550093; Subject: Warren Buffett; Object: Microsoft
+	Confidence is lower than threshold confidence. Ignoring this.
+	==========
 Relations extracted from this website 2 (Overall: 34)
 URL (10 / 10): https://www.cnn.com/2020/03/13/.../bill-gates-microsoft.../index.html
 Fetching text from url ...
 Webpage length (num characters): 2414
 Annotating the webpage using [tokenize, ssplit, pos, lemma, ner] annotators ...
-Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 1
-00000 -quiet True -serverProperties corenlp_server-90f0dde827bb4630.props -preload tokenize,ssplit,pos,lemma,ner,depparse
+Starting server with command: java -Xmx4G -cp /home/dcs2180/stanford-corenlp-full-2018-10-05/* edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 30000 -threads 5 -maxCharLength 100000 -quiet True -serverProperties corenlp_server-aad0a5dc68fe4f37.props -preload tokenize,ssplit,pos,lemma,ner,depparse
 Relations extracted from this website 0 (Overall: 34)
 ================== ALL RELATIONS (34) =================
-        Confidence: 1.0 | Subject: Bill Gates   | Object: Microsoft
-        Confidence: 1.0 | Subject: Satya Nadella        | Object: Microsoft
-        Confidence: 1.0 | Subject: Gates        | Object: Microsoft
-        Confidence: 1.0 | Subject: Paul Allen   | Object: Microsoft
-        Confidence: 1.0 | Subject: He   | Object: Microsoft
-        Confidence: 1.0 | Subject: Gates        | Object: Harvard
-        Confidence: 1.0 | Subject: Christos Papadimitriou       | Object: Harvard
-        Confidence: 1.0 | Subject: Jack Sams    | Object: IBM
-        Confidence: 1.0 | Subject: Tim Paterson | Object: Seattle Computer Products
-        Confidence: 1.0 | Subject: Bill Gates   | Object: Reuters Microsoft
-        Confidence: 1.0 | Subject: Warren Buffett       | Object: Berkshire Hathaway
-        Confidence: 1.0 | Subject: Jeff Bezos   | Object: Amazon
-        Confidence: 0.9799911902690535  | Subject: Bill Gates Gates     | Object: Bill & Melinda Gates Foundation
-        Confidence: 0.9785020123001692  | Subject: Bill Gates Gates     | Object: Microsoft
-        Confidence: 0.9673864991548168  | Subject: William Henry Gates III      | Object: Bill & Melinda Gates Foundation
-        Confidence: 0.9631251003520094  | Subject: William Henry Gates III      | Object: Microsoft
-        Confidence: 0.9587466735070875  | Subject: William Henry Gates III      | Object: Cascade Investment Technology
-        Confidence: 0.9539909410995429  | Subject: Melinda French       | Object: Microsoft
-        Confidence: 0.9537093945063441  | Subject: Mary Maxwell Gates   | Object: Microsoft
-        Confidence: 0.9393039890496282  | Subject: Mary Maxwell Gates   | Object: Cascade Investment Technology
-        Confidence: 0.933850373400645   | Subject: Melinda French       | Object: Cascade Investment Technology
-        Confidence: 0.9300529656457135  | Subject: Mary Maxwell Gates   | Object: Bill & Melinda Gates Foundation
-        Confidence: 0.9192702243950713  | Subject: Gates        | Object: Bill & Melinda Gates Foundation
-        Confidence: 0.8925304003307755  | Subject: William Henry Gates III      | Object: Branded Entertainment Network
-        Confidence: 0.8912706470667288  | Subject: David Boies  | Object: Justice Department
-        Confidence: 0.8700164649703435  | Subject: Mary Maxwell Gates   | Object: Branded Entertainment Network
-        Confidence: 0.8644557738185423  | Subject: Melinda French       | Object: Bill & Melinda Gates Foundation
-        Confidence: 0.8624891238256895  | Subject: Bill Gates Gates     | Object: Branded Entertainment Network
-        Confidence: 0.8305853137419958  | Subject: Gates        | Object: Berkshire
-        Confidence: 0.8199447124115846  | Subject: Melinda French       | Object: Branded Entertainment Network
-        Confidence: 0.772364410541728   | Subject: Bill Gates Gates     | Object: Cascade Investment Technology
-        Confidence: 0.7639629571437762  | Subject: Gates        | Object: Intel
-        Confidence: 0.7306145876740974  | Subject: Steve Jobs   | Object: Justice Department
-        Confidence: 0.7175707843712362  | Subject: Post-Microsoft Gates | Object: Microsoft
+	Confidence: 1.0	| Subject: Bill Gates	| Object: Microsoft
+	Confidence: 1.0	| Subject: Satya Nadella	| Object: Microsoft
+	Confidence: 1.0	| Subject: Gates	| Object: Microsoft
+	Confidence: 1.0	| Subject: Paul Allen	| Object: Microsoft
+	Confidence: 1.0	| Subject: He	| Object: Microsoft
+	Confidence: 1.0	| Subject: Gates	| Object: Harvard
+	Confidence: 1.0	| Subject: Christos Papadimitriou	| Object: Harvard
+	Confidence: 1.0	| Subject: Jack Sams	| Object: IBM
+	Confidence: 1.0	| Subject: Tim Paterson	| Object: Seattle Computer Products
+	Confidence: 1.0	| Subject: Bill Gates	| Object: Reuters Microsoft
+	Confidence: 1.0	| Subject: Warren Buffett	| Object: Berkshire Hathaway
+	Confidence: 1.0	| Subject: Jeff Bezos	| Object: Amazon
+	Confidence: 0.9799911902690535	| Subject: Bill Gates Gates	| Object: Bill & Melinda Gates Foundation
+	Confidence: 0.9785020123001692	| Subject: Bill Gates Gates	| Object: Microsoft
+	Confidence: 0.9673864991548168	| Subject: William Henry Gates III	| Object: Bill & Melinda Gates Foundation
+	Confidence: 0.9631251003520094	| Subject: William Henry Gates III	| Object: Microsoft
+	Confidence: 0.9587466735070875	| Subject: William Henry Gates III	| Object: Cascade Investment Technology
+	Confidence: 0.9539909410995429	| Subject: Melinda French	| Object: Microsoft
+	Confidence: 0.9537093945063441	| Subject: Mary Maxwell Gates	| Object: Microsoft
+	Confidence: 0.9393039890496282	| Subject: Mary Maxwell Gates	| Object: Cascade Investment Technology
+	Confidence: 0.933850373400645	| Subject: Melinda French	| Object: Cascade Investment Technology
+	Confidence: 0.9300529656457135	| Subject: Mary Maxwell Gates	| Object: Bill & Melinda Gates Foundation
+	Confidence: 0.9192702243950713	| Subject: Gates	| Object: Bill & Melinda Gates Foundation
+	Confidence: 0.8925304003307755	| Subject: William Henry Gates III	| Object: Branded Entertainment Network
+	Confidence: 0.8912706470667288	| Subject: David Boies	| Object: Justice Department
+	Confidence: 0.8700164649703435	| Subject: Mary Maxwell Gates	| Object: Branded Entertainment Network
+	Confidence: 0.8644557738185423	| Subject: Melinda French	| Object: Bill & Melinda Gates Foundation
+	Confidence: 0.8624891238256895	| Subject: Bill Gates Gates	| Object: Branded Entertainment Network
+	Confidence: 0.8305853137419958	| Subject: Gates	| Object: Berkshire
+	Confidence: 0.8199447124115846	| Subject: Melinda French	| Object: Branded Entertainment Network
+	Confidence: 0.772364410541728	| Subject: Bill Gates Gates	| Object: Cascade Investment Technology
+	Confidence: 0.7639629571437762	| Subject: Gates	| Object: Intel
+	Confidence: 0.7306145876740974	| Subject: Steve Jobs	| Object: Justice Department
+	Confidence: 0.7175707843712362	| Subject: Post-Microsoft Gates	| Object: Microsoft
