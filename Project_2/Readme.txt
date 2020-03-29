@@ -8,6 +8,7 @@ Readme.txt
 transcript.txt
 
 # Final Design
+- Using the seed query from the user input we performed a google search and parsed the first 20000 characters of each page. For each page we ran the raw text through pipeline 1 which is an NER pipeline that checks the text for the relation specified by the user. If a sentence contains the appropriate NER relationship then we will run the sentence through pipeline 2 which is a KBP pipeline which will give us an estimated confidence for our KBP relation. If the sentence holds the relation with confidence higher than the target threshold then we will extract the tuple and add to the list of extracted tuples. After parsing the 10 queried pages, if our extracted tuples list holds enough relations we will terminate. Otherwise, we re-query with the highest confidence tuple that has yet to have been used in hopes of finding more high confidence relations.
 
 
 
@@ -51,6 +52,7 @@ GCP VM Install Commands:
 - stanfordnlp : for creating the kbp pairs from text
 
 # Transcript 
+python3 run.py AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs 001513741995706822325:jzoyxarodil 2 0.7 "bill gates microsoft" 10
 
 # References
 http://www.cs.columbia.edu/~gravano/cs6111/proj2.html
