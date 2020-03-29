@@ -33,24 +33,20 @@ def tag_visible(element):
 
 
 
-def checkKBPConfidence(ann_kbp, counterExtractedTuples):
+def checkKBPConfidence(ann_kbp, r, counterExtractedTuples):
     # check confidence > threshold
     for sentence in ann_kbp.sentence:
         for kbp_triple in sentence.kbpTriple:
-            if kbp_triple.confidence > t:
+            if kbp_triple.relation == r:
                 print("\t=== Extracted Relation ===")
                 print("\tSentence: ", to_text(sentence))
-                print(f"\tConfidence: {kbp_triple.confidence};\t Subject: {kbp_triple.subject};\t Relation: {kbp_triple.relation}; Object: {kbp_triple.object}")
-                extractedTuples.add((kbp_triple.confidence,str(kbp_triple.subject)+","+str(kbp_triple.object)))
-                print("\tAdding to set of extracted relations")
-                print("\t==========")
-                counterExtractedTuples +=1
-
-            else:
-                print("\t=== Extracted Relation ===")
-                print("\tSentence: ", to_text(sentence))
-                print(f"\tConfidence: {kbp_triple.confidence};\t Subject: {kbp_triple.subject};\t Relation: {kbp_triple.relation}; Object: {kbp_triple.object}")
-                print("\tConfidence is lower than threshold confidence. Ignoring this.")
+                print(f"\tConfidence: {kbp_triple.confidence}; Subject: {kbp_triple.subject}; Object: {kbp_triple.object}")
+                if kbp_triple.confidence > t:
+                    extractedTuples.add((kbp_triple.confidence,str(kbp_triple.subject)+","+str(kbp_triple.object)))
+                    print("\tAdding to set of extracted relations")
+                    counterExtractedTuples +=1
+                else:
+                    print("\tConfidence is lower than threshold confidence. Ignoring this.")
                 print("\t==========")
     return counterExtractedTuples
 
@@ -103,7 +99,7 @@ def main(api_key, engine_id, r, t, q, k):
                 rawPage = requests.get(url)
             except:
                 print("Unable to fetch URL. Continuing.")
-                break
+                continue
             contents = BeautifulSoup(rawPage.text, 'html.parser')
             pageText = contents.findAll(text=True)
             rawText = filter(tag_visible, pageText)
@@ -122,46 +118,50 @@ def main(api_key, engine_id, r, t, q, k):
             counterLastIterationExtractedTuples = counterExtractedTuples
 
             # TA PROVIDED CODE For KBP TRIPLE EXTRACTION
-            with CoreNLPClient(timeout=30000, memory='4G', be_quiet=True) as pipeline:
-                ann_ner = pipeline.annotate(rawText, annotators=annotators_ner)
-                # print 330 lines
+            try:
+                with CoreNLPClient(timeout=30000, memory='4G', be_quiet=True) as pipeline:
+                    ann_ner = pipeline.annotate(rawText, annotators=annotators_ner)
+                    # print 330 lines
 
-                # check ner tags  ( CHECK THE RELATION HERE )
-                for sentence in ann_ner.sentence:
-                    sentenceText = to_text(sentence)
-                    #print("Sentence: ", sentenceText)
+                    # check ner tags  ( CHECK THE RELATION HERE )
+                    for sentence in ann_ner.sentence:
+                        sentenceText = to_text(sentence)
+                        #print("Sentence: ", sentenceText)
 
-                    for token in sentence.token:
-                        #print(f"****Token word:: {token.word};\t ner : {token.ner}; ")
-                        if (token.ner not in sentenceNers):
-                            if r == "per:cities_of_residence":
-                                if(token.ner in nersRelationtype2):
-                                    sentenceNers.add(token.ner)
+                        for token in sentence.token:
+                            #print(f"****Token word:: {token.word};\t ner : {token.ner}; ")
+                            if (token.ner not in sentenceNers):
+                                if r == "per:cities_of_residence":
+                                    if(token.ner in nersRelationtype2):
+                                        sentenceNers.add(token.ner)
+                                else:
+                                    if(token.ner in nersRelationtype1):
+                                        sentenceNers.add(token.ner)
+                        #print("Sentence NERS: ", sentenceNers)
+
+                        if r == "per:cities_of_residence":
+                            if (nersRelationtype2[0] in sentenceNers) and (nersRelationtype2[1] in sentenceNers) \
+                                or (nersRelationtype2[2] in sentenceNers) or (nersRelationtype2[3] in sentenceNers):
+                                # KBP Annotate for more detailed analysis
+                                ann_kbp = pipeline.annotate(sentenceText, annotators=annotators_kbp)
+                                counterExtractedTuples = checkKBPConfidence(ann_kbp, r, counterExtractedTuples)
                             else:
-                                if(token.ner in nersRelationtype1):
-                                    sentenceNers.add(token.ner)
-                    #print("Sentence NERS: ", sentenceNers)
-
-                    if r == "per:cities_of_residence":
-                        if (nersRelationtype2[0] in sentenceNers) and (nersRelationtype2[1] in sentenceNers) \
-                            or (nersRelationtype2[2] in sentenceNers) or (nersRelationtype2[3] in sentenceNers):
-                            # KBP Annotate for more detailed analysis
-                            ann_kbp = pipeline.annotate(sentenceText, annotators=annotators_kbp)
-                            counterExtractedTuples = checkKBPConfidence(ann_kbp, counterExtractedTuples)
+                                #print("~~~~~~NO MATCHING NERS")
+                                pass
                         else:
-                            #print("~~~~~~NO MATCHING NERS")
-                            pass
-                    else:
-                        if nersRelationtype1[0] in sentenceNers and nersRelationtype1[1] in sentenceNers:
-                            # KBP Annotate for more detailed analysis
-                            ann_kbp = pipeline.annotate(sentenceText, annotators=annotators_kbp)
-                            counterExtractedTuples = checkKBPConfidence(ann_kbp, counterExtractedTuples)
-                        else:
-                            #print("~~~~~~NO MATCHING NERS")
-                            pass
-                    sentenceNers.clear()
-            # End of webPage
-            print(f"Relations extracted from this website {counterExtractedTuples - counterLastIterationExtractedTuples} (Overall: {counterExtractedTuples})")
+                            if nersRelationtype1[0] in sentenceNers and nersRelationtype1[1] in sentenceNers:
+                                # KBP Annotate for more detailed analysis
+                                ann_kbp = pipeline.annotate(sentenceText, annotators=annotators_kbp)
+                                counterExtractedTuples = checkKBPConfidence(ann_kbp, r, counterExtractedTuples)
+                            else:
+                                #print("~~~~~~NO MATCHING NERS")
+                                pass
+                        sentenceNers.clear()
+                # End of webPage
+                print(f"Relations extracted from this website {counterExtractedTuples - counterLastIterationExtractedTuples} (Overall: {counterExtractedTuples})")
+            except:
+                print("Timeout Stanford NLP Server --- Continuing")
+                pass
         # Next iteration, need new query based off high confidence tuple
         queryIteration += 1
 
