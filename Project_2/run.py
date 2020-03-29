@@ -198,12 +198,12 @@ def main(api_key, engine_id, r, t, q, k):
 
 
 if __name__ == '__main__':
-    api_key = sys.argv[1]
-    engine_id = sys.argv[2]
-    r = sys.argv[3]
-    t = sys.argv[4]
-    q = sys.argv[5]
-    k = sys.argv[5]
+    api_key = str(sys.argv[1])
+    engine_id = str(sys.argv[2])
+    r = int(sys.argv[3])
+    t = float(sys.argv[4])
+    q = str(sys.argv[5])
+    k = int(sys.argv[5])
     '''
     api_key = "AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs"
     engine_id = '001513741995706822325:jzoyxarodil'
