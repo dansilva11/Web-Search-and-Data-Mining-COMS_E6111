@@ -6,9 +6,10 @@ from bs4.element import Comment
 from stanfordnlp.server import CoreNLPClient
 from stanfordnlp.server import to_text
 
-extractedTuples = set()
+extractedTuples = dict()
 visitedURLs = set()
 sentenceNers = set()
+visitedTuples = set()
 
 relations = {
 1: "per:schools_attended", #Schools_Attended
@@ -42,19 +43,39 @@ def checkKBPConfidence(ann_kbp, r, counterExtractedTuples):
                 print("\tSentence: ", to_text(sentence))
                 print(f"\tConfidence: {kbp_triple.confidence}; Subject: {kbp_triple.subject}; Object: {kbp_triple.object}")
                 if kbp_triple.confidence > t:
-                    extractedTuples.add((kbp_triple.confidence,str(kbp_triple.subject)+","+str(kbp_triple.object)))
-                    print("\tAdding to set of extracted relations")
-                    counterExtractedTuples +=1
+                    # Update Confidence if possible (Higher ONLY)
+                    if str(kbp_triple.subject)+","+str(kbp_triple.object) in extractedTuples:
+                        if kbp_triple.confidence > extractedTuples[str(kbp_triple.subject)+","+str(kbp_triple.object)]:
+                            extractedTuples[str(kbp_triple.subject)+","+str(kbp_triple.object)] = kbp_triple.confidence
+                            print("The same relation is already present but with a lower confidence. Just updating the confident value.")
+                        else:
+                            print("The same relation is already present with higher (or equal) confidence. Ignoring this.")
+
+                    # Brand new relation
+                    else:
+                        extractedTuples[str(kbp_triple.subject)+","+str(kbp_triple.object)] = kbp_triple.confidence
+                        print("\tAdding to set of extracted relations")
+                        counterExtractedTuples +=1
                 else:
                     print("\tConfidence is lower than threshold confidence. Ignoring this.")
                 print("\t==========")
     return counterExtractedTuples
+
+def sortByConfidence(extractedTuples):
+    # Sort Queries by Confidence (value) and requery for top relation
+    return [(k,v) for k, v in sorted(extractedTuples.items(), key=lambda item: item[1], reverse= True)]
+
+def finalResultsPrint(extractedTuples):
+    print(f"================== ALL RELATIONS ({len(extractedTuples)}) =================")
+    for k,v in extractedTuples:
+        print(f"\tConfidence: {v}\t| Subject: {k.split(',')[0]}\t| Object: {k.split(',')[1]}")
 
 def main(api_key, engine_id, r, t, q, k):
     queryIteration = 0
     pageNumberVisited = 0
     r = relations[r]
     counterExtractedTuples = 0
+    visitedTuples.add(q)
 
     # Initial Print of Parameters
     print("\nParameters:")
@@ -89,8 +110,7 @@ def main(api_key, engine_id, r, t, q, k):
             else:
                 visitedURLs.add(url)
             pageNumberVisited+=1
-            print(("URL (%s / 10): " + url) % pageNumberVisited )
-
+            print(f"URL ({pageNumberVisited} / {(queryIteration+1)*10}): {url}")
 
 
             # Get the 20000 characters from page
@@ -162,12 +182,22 @@ def main(api_key, engine_id, r, t, q, k):
             except:
                 print("Timeout Stanford NLP Server --- Continuing")
                 pass
+
         # Next iteration, need new query based off high confidence tuple
         queryIteration += 1
+        sortedTuples = sortByConfidence(extractedTuples)
+        for i in sortedTuples:
+            newQuery =  ' '.join(i[0].lower().split(','))
+            if newQuery not in visitedTuples:
+                q = newQuery
+                visitedTuples.add(q)
+                break
+
+    # End results
+    finalResultsPrint(sortedTuples)
 
 
 if __name__ == '__main__':
-    '''
     api_key = sys.argv[1]
     engine_id = sys.argv[2]
     r = sys.argv[3]
@@ -180,6 +210,7 @@ if __name__ == '__main__':
     r = 2
     t = 0.7
     q = "bill gates microsoft"
-    k = 10
+    k = 60
+    '''
 
     main(api_key, engine_id, r, t, q, k)
