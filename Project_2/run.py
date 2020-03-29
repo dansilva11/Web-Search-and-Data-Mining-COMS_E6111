@@ -203,7 +203,7 @@ if __name__ == '__main__':
     r = int(sys.argv[3])
     t = float(sys.argv[4])
     q = str(sys.argv[5])
-    k = int(sys.argv[5])
+    k = int(sys.argv[6])
     '''
     api_key = "AIzaSyDizICDRG4vBY5_F6mzfADnbxDAKt78LYs"
     engine_id = '001513741995706822325:jzoyxarodil'
