@@ -1,0 +1,122 @@
+==Frequent itemsets (min_sup=5.0)
+[car_accident_count(>78), park_n_rec_event_count(0-3)], Supp: 27.3891%
+[eviction_count(0-8), park_n_rec_event_count(0-3)], Supp: 26.9625%
+[construction_job_count(46-90), park_n_rec_event_count(0-3)], Supp: 20.6058%
+[building_complaint_count(0-34), eviction_count(0-8)], Supp: 18.942%
+[building_complaint_count(0-34), park_n_rec_event_count(0-3)], Supp: 18.302%
+[construction_job_count(0-45), park_n_rec_event_count(0-3)], Supp: 18.2594%
+[car_accident_count(>78), eviction_count(0-8)], Supp: 16.8515%
+[construction_job_count(0-45), eviction_count(0-8)], Supp: 15.657%
+[construction_job_count(46-90), car_accident_count(>78)], Supp: 15.5717%
+[car_accident_count(27-52), eviction_count(0-8)], Supp: 15.529%
+[building_complaint_count(35-68), park_n_rec_event_count(0-3)], Supp: 15.273%
+[construction_job_count(>135), eviction_count(0-8)], Supp: 15.0597%
+[car_accident_count(>78), building_complaint_count(>102)], Supp: 15.0171%
+[car_accident_count(53-78), park_n_rec_event_count(0-3)], Supp: 14.7184%
+[eviction_count(9-16), park_n_rec_event_count(0-3)], Supp: 14.2065%
+[building_complaint_count(35-68), eviction_count(0-8)], Supp: 13.9078%
+[car_accident_count(>78), construction_job_count(>135)], Supp: 13.8652%
+[building_complaint_count(0-34), construction_job_count(0-45)], Supp: 13.6945%
+[building_complaint_count(69-102), park_n_rec_event_count(0-3)], Supp: 13.1399%
+[building_complaint_count(0-34), car_accident_count(>78)], Supp: 12.9693%
+[construction_job_count(46-90), eviction_count(0-8)], Supp: 12.8413%
+[eviction_count(9-16), car_accident_count(>78)], Supp: 12.244%
+[car_accident_count(27-52), park_n_rec_event_count(0-3)], Supp: 11.9454%
+[car_accident_count(53-78), eviction_count(0-8)], Supp: 11.4761%
+[eviction_count(>24), car_accident_count(>78)], Supp: 11.3908%
+[car_accident_count(>78), building_complaint_count(69-102)], Supp: 11.2201%
+[building_complaint_count(>102), park_n_rec_event_count(0-3)], Supp: 10.6655%
+[park_n_rec_event_count(>9), eviction_count(0-8)], Supp: 10.2389%
+[construction_job_count(>135), park_n_rec_event_count(0-3)], Supp: 10.1536%
+[construction_job_count(46-90), car_accident_count(>78), park_n_rec_event_count(0-3)], Supp: 10.0256%
+[building_complaint_count(69-102), eviction_count(0-8)], Supp: 9.8549%
+[building_complaint_count(0-34), construction_job_count(46-90)], Supp: 9.8123%
+[eviction_count(0-8), building_complaint_count(0-34), park_n_rec_event_count(0-3)], Supp: 9.8123%
+[building_complaint_count(35-68), construction_job_count(0-45)], Supp: 9.7696%
+[eviction_count(0-8), park_n_rec_event_count(4-6)], Supp: 9.7696%
+[car_accident_count(53-78), construction_job_count(46-90)], Supp: 9.343%
+[construction_job_count(>135), car_accident_count(>78), eviction_count(0-8)], Supp: 9.343%
+[building_complaint_count(35-68), construction_job_count(46-90)], Supp: 9.1724%
+[construction_job_count(91-135), car_accident_count(>78)], Supp: 9.1724%
+[eviction_count(>24), park_n_rec_event_count(0-3)], Supp: 9.1724%
+[car_accident_count(>78), park_n_rec_event_count(4-6)], Supp: 9.1297%
+[car_accident_count(27-52), construction_job_count(0-45)], Supp: 8.9164%
+[construction_job_count(0-45), eviction_count(0-8), park_n_rec_event_count(0-3)], Supp: 8.8737%
+[eviction_count(0-8), building_complaint_count(0-34), construction_job_count(0-45)], Supp: 8.7884%
+[eviction_count(0-8), car_accident_count(27-52), park_n_rec_event_count(0-3)], Supp: 8.7031%
+[eviction_count(9-16), construction_job_count(46-90)], Supp: 8.6604%
+[construction_job_count(91-135), park_n_rec_event_count(0-3)], Supp: 8.3618%
+[eviction_count(0-8), car_accident_count(>78), park_n_rec_event_count(0-3)], Supp: 8.3191%
+[building_complaint_count(35-68), car_accident_count(53-78)], Supp: 8.1485%
+[building_complaint_count(0-34), car_accident_count(27-52)], Supp: 8.0631%
+[eviction_count(9-16), building_complaint_count(0-34)], Supp: 8.0631%
+[building_complaint_count(35-68), eviction_count(0-8), park_n_rec_event_count(0-3)], Supp: 8.0631%
+[building_complaint_count(>102), car_accident_count(>78), park_n_rec_event_count(0-3)], Supp: 8.0631%
+[building_complaint_count(35-68), car_accident_count(27-52)], Supp: 7.9352%
+[building_complaint_count(>102), eviction_count(0-8)], Supp: 7.8925%
+[construction_job_count(46-90), building_complaint_count(69-102)], Supp: 7.8072%
+[eviction_count(0-8), construction_job_count(46-90), park_n_rec_event_count(0-3)], Supp: 7.7645%
+[park_n_rec_event_count(0-3), building_complaint_count(0-34), construction_job_count(0-45)], Supp: 7.6792%
+[eviction_count(>24), car_accident_count(>78), park_n_rec_event_count(0-3)], Supp: 7.6365%
+[car_accident_count(>78), construction_job_count(0-45)], Supp: 7.5085%
+[eviction_count(9-16), car_accident_count(>78), park_n_rec_event_count(0-3)], Supp: 7.4659%
+[building_complaint_count(0-34), car_accident_count(>78), park_n_rec_event_count(0-3)], Supp: 7.4232%
+[car_accident_count(53-78), construction_job_count(0-45)], Supp: 7.3805%
+[car_accident_count(>78), building_complaint_count(69-102), park_n_rec_event_count(0-3)], Supp: 7.2526%
+[park_n_rec_event_count(0-3), car_accident_count(53-78), eviction_count(0-8)], Supp: 7.2526%
+[eviction_count(17-24), park_n_rec_event_count(0-3)], Supp: 7.0392%
+[construction_job_count(91-135), eviction_count(0-8)], Supp: 7.0392%
+[eviction_count(>24), construction_job_count(46-90)], Supp: 7.0392%
+[building_complaint_count(35-68), car_accident_count(>78)], Supp: 6.9113%
+[eviction_count(9-16), construction_job_count(0-45)], Supp: 6.7833%
+[eviction_count(9-16), car_accident_count(53-78)], Supp: 6.7833%
+[construction_job_count(>135), eviction_count(0-8), park_n_rec_event_count(0-3)], Supp: 6.7833%
+[construction_job_count(46-90), car_accident_count(27-52)], Supp: 6.7406%
+[car_accident_count(0-26), eviction_count(0-8)], Supp: 6.7406%
+[park_n_rec_event_count(>9), building_complaint_count(0-34)], Supp: 6.698%
+[park_n_rec_event_count(>9), car_accident_count(>78)], Supp: 6.6553%
+[construction_job_count(0-45), car_accident_count(27-52), eviction_count(0-8)], Supp: 6.6553%
+[car_accident_count(53-78), building_complaint_count(0-34)], Supp: 6.57%
+[car_accident_count(0-26), construction_job_count(0-45)], Supp: 6.5273%
+[park_n_rec_event_count(0-3), car_accident_count(>78), construction_job_count(>135)], Supp: 6.442%
+[construction_job_count(>135), building_complaint_count(>102)], Supp: 6.3567%
+[car_accident_count(53-78), building_complaint_count(69-102)], Supp: 6.314%
+[eviction_count(0-8), building_complaint_count(0-34), car_accident_count(27-52)], Supp: 6.314%
+[construction_job_count(46-90), building_complaint_count(>102)], Supp: 6.2287%
+[park_n_rec_event_count(0-3), building_complaint_count(35-68), construction_job_count(0-45)], Supp: 6.186%
+[building_complaint_count(0-34), park_n_rec_event_count(4-6)], Supp: 5.9727%
+[car_accident_count(53-78), construction_job_count(46-90), park_n_rec_event_count(0-3)], Supp: 5.9727%
+[building_complaint_count(0-34), construction_job_count(46-90), park_n_rec_event_count(0-3)], Supp: 5.93%
+[park_n_rec_event_count(0-3), car_accident_count(>78), construction_job_count(0-45)], Supp: 5.8874%
+[building_complaint_count(69-102), construction_job_count(>135)], Supp: 5.8447%
+[building_complaint_count(35-68), construction_job_count(46-90), park_n_rec_event_count(0-3)], Supp: 5.8447%
+[building_complaint_count(35-68), eviction_count(0-8), car_accident_count(27-52)], Supp: 5.802%
+[construction_job_count(46-90), park_n_rec_event_count(4-6)], Supp: 5.7594%
+[eviction_count(>24), construction_job_count(46-90), car_accident_count(>78)], Supp: 5.7594%
+[eviction_count(9-16), building_complaint_count(69-102)], Supp: 5.7167%
+[eviction_count(9-16), building_complaint_count(35-68)], Supp: 5.7167%
+[building_complaint_count(>102), car_accident_count(>78), eviction_count(0-8)], Supp: 5.6741%
+[eviction_count(17-24), car_accident_count(>78)], Supp: 5.6314%
+[eviction_count(9-16), construction_job_count(46-90), park_n_rec_event_count(0-3)], Supp: 5.5887%
+[construction_job_count(91-135), eviction_count(9-16)], Supp: 5.5461%
+[eviction_count(0-8), building_complaint_count(69-102), park_n_rec_event_count(0-3)], Supp: 5.5034%
+[car_accident_count(0-26), building_complaint_count(0-34)], Supp: 5.4608%
+[construction_job_count(>135), car_accident_count(>78), building_complaint_count(>102)], Supp: 5.4181%
+[construction_job_count(0-45), car_accident_count(27-52), park_n_rec_event_count(0-3)], Supp: 5.3328%
+[construction_job_count(0-45), park_n_rec_event_count(4-6)], Supp: 5.2901%
+[eviction_count(9-16), building_complaint_count(>102)], Supp: 5.2474%
+[construction_job_count(46-90), building_complaint_count(69-102), park_n_rec_event_count(0-3)], Supp: 5.2048%
+[car_accident_count(53-78), park_n_rec_event_count(4-6)], Supp: 5.0768%
+[car_accident_count(0-26), eviction_count(0-8), construction_job_count(0-45)], Supp: 5.0768%
+[park_n_rec_event_count(>9), construction_job_count(0-45)], Supp: 5.0341%
+[construction_job_count(91-135), car_accident_count(>78), park_n_rec_event_count(0-3)], Supp: 5.0341%
+
+==High-confidence association rules (min_conf=75.0)
+[building_complaint_count(>102), construction_job_count(>135)]=>[car_accident_count(>78)] (Conf: 85.2349%, Supp: 5.4181
+[eviction_count(>24), park_n_rec_event_count(0-3)]=>[car_accident_count(>78)] (Conf: 83.2558%, Supp: 7.6365
+[eviction_count(>24), construction_job_count(46-90)]=>[car_accident_count(>78)] (Conf: 81.8182%, Supp: 5.7594
+[car_accident_count(>78), construction_job_count(0-45)]=>[park_n_rec_event_count(0-3)] (Conf: 78.4091%, Supp: 5.8874
+[building_complaint_count(0-34), car_accident_count(27-52)]=>[eviction_count(0-8)] (Conf: 78.3069%, Supp: 6.314
+[car_accident_count(0-26), construction_job_count(0-45)]=>[eviction_count(0-8)] (Conf: 77.7778%, Supp: 5.0768
+[park_n_rec_event_count(0-3), building_complaint_count(>102)]=>[car_accident_count(>78)] (Conf: 75.6%, Supp: 8.0631
+[car_accident_count(0-26), eviction_count(0-8)]=>[construction_job_count(0-45)] (Conf: 75.3165%, Supp: 5.0768
