@@ -90,12 +90,12 @@ def apriori_gen(L_k):
 
 
 if __name__ == "__main__":
-    # data_path = sys.argv[1]
-    # min_sup = sys.argv[2]
-    # min_conf = sys.argv[3]
+    data_path = sys.argv[1]
+    min_sup = sys.argv[2]
+    min_conf = sys.argv[3]
 
-    data_path = "City_Events_by_Month_and_Zip.csv"
-    min_sup = 0.05
-    min_conf = 0.75
+    # data_path = "City_Events_by_Month_and_Zip.csv"
+    # min_sup = 0.05
+    # min_conf = 0.75
 
     run_association(data_path, min_sup, min_conf)
